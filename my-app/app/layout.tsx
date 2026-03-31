@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
+import Menu from "./ui/Menu";
 import "./globals.css";
 
 // const geistSans = Geist({
@@ -14,7 +15,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Neuro-Psy-One",
-  description: "WebApp Neuro-Psy pour remédiation cognitive",
+  description: "WebApp Neuro-Psy de remédiation cognitive",
 };
 
 export default function RootLayout({
@@ -25,11 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-full flex flex-col">
-        <div className="bg-zinc-50 font-sans dark:bg-black p-10">
-          <main className="w-full h-screen p-4 bg-zinc-400 dark:bg-black">
-            {children}
-          </main>
-        </div>
+        <main className="w-full h-screen dark:bg-black">
+          <Menu />
+          {children}
+        </main>
       </body>
     </html>
   );
