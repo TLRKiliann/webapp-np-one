@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function AttentionSelectivePage() {
+export default function AphasiePage() {
     return (
         <div className="h-screen p-4">
 

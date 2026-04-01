@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-export default function AttentionSelectivePage() {
+export default function Fluence() {
     return (
         <div className="h-screen p-4">
 
-            <h1 className="text-3xl font-bold">Aphasie</h1>
+            <h1 className="text-3xl font-bold">Fluence</h1>
 
-            {/* <nav className="mt-8 ml-8">
+            <nav className="mt-8 ml-8">
                 <ul className="list-disc">
                     <li className="text-xl hover:text-green-500 mb-2">
                         <Link href="/language/fluence/1">
@@ -24,7 +24,7 @@ export default function AttentionSelectivePage() {
                         </Link>
                     </li>
                 </ul>
-            </nav> */}
+            </nav>
 
         </div>
     )

@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function AttentionSelectivePage() {
+export default function PraxiesPage() {
     return (
         <div className="h-screen p-4">
 
-            <h1 className="text-3xl font-bold">Aphasie</h1>
+            <h1 className="text-3xl font-bold">Praxies</h1>
 
             {/* <nav className="mt-8 ml-8">
                 <ul className="list-disc">
