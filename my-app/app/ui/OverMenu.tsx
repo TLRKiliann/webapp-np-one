@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DarkModeToggle from "./DarkModeToggle";
 
 export default function OverMenu() {
     return (
@@ -25,9 +26,7 @@ export default function OverMenu() {
                     </Link>
                 </li>
                 <li className="my-4">
-                    <Link href="">
-                        Darkmode
-                    </Link>
+                    <DarkModeToggle />
                 </li>
             </ul>
         </nav>
