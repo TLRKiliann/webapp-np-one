@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
-          <main className="w-full h-full text-slate-800 dark:text-white bg-zinc-100 dark:bg-black">
+          <main className="w-full h-full text-slate-800 dark:text-white bg-white dark:bg-black">
             <OverMenu />
             <Menu />
             {children}
