@@ -1,10 +1,16 @@
 import Link from "next/link";
-import DarkModeToggle from "./DarkModeToggle";
+import DarkModeToggle from "../DarkModeToggle";
+import { MdHome } from "react-icons/md";
 
 export default function OverMenu() {
     return (
         <nav className="bg-slate-600 dark:bg-slate-700/70">
             <ul className="list-none flex flex-row items-center justify-evenly text-base text-slate-100 font-bold">
+                <li className="my-4">
+                    <Link href="/">
+                        <span><MdHome size={24}/></span>
+                    </Link>
+                </li>
                 <li className="my-4">
                     <Link href="">
                         Patient

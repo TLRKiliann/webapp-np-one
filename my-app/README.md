@@ -54,13 +54,6 @@
   - /praxies — difficultés gestuelles (apraxie), fréquent post-AVC              
   - /orientation-spatiale — négligence hémispatiale, fréquente post-AVC droit   
 
-attention-soutenue
-attention-divisee
-langage
-aphasie
-praxies
-orientation-spatiale
-
 ⏺ /attention-soutenue    
   Cortex préfrontal droit, cortex cingulaire antérieur, formation réticulaire
   (tronc cérébral), locus coeruleus.                                            
@@ -125,7 +118,8 @@ ok
   - Compléter une phrase à trou avec l'image comme indice ("on coupe le pain
   avec un...")
   - Dénomination avec amorçage phonologique (première syllabe donnée en indice) 
-                                                                                
+ok
+                                                               
   ---                                                                           
   /langage/comprehension
   - Désigner l'image correspondant à un mot entendu parmi 4 distracteurs        

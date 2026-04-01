@@ -4,7 +4,7 @@ export default function AttentionSelectivePage() {
     return (
         <div className="h-screen p-4">
 
-            <h1 className="text-3xl font-bold">Aphasie</h1>
+            <h1 className="text-3xl font-bold">Attention sélective</h1>
 
             {/* <nav className="mt-8 ml-8">
                 <ul className="list-disc">
