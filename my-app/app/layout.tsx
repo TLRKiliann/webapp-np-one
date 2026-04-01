@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
-import OverMenu from "./ui/OverMenu";
-import Menu from "./ui/Menu";
-import SecondMenu from "./ui/SecondMenu";
+import OverMenu from "./ui/menu/OverMenu";
+import Menu from "./ui/menu/Menu";
+import SecondMenu from "./ui/menu/SecondMenu";
 import ThemeProvider from "./ui/ThemeProvider";
 import "./globals.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Neuro-Psy-One",
