@@ -1,6 +1,6 @@
-import SimpleHanoiFexec from "@/app/ui/fexec/SimpleHanoiFexec";
-import TrailMakingBFexec from "@/app/ui/fexec/TrailMakingBFexec";
-import TriCartesFexec from "@/app/ui/fexec/TriCartesFexec";
+import SimpleHanoiFexec from "@/app/ui/fonctionsExecutives/SimpleHanoiFexec";
+import TrailMakingBFexec from "@/app/ui/fonctionsExecutives/TrailMakingBFexec";
+import TriCartesFexec from "@/app/ui/fonctionsExecutives/TriCartesFexec";
 
 const tasks = {
     "1": {
@@ -32,8 +32,12 @@ export default async function Executives({ params }: { params: Promise<{ id: str
     return (
         <div>
             <h1 className="text-3xl font-bold">{task.title}</h1>
+            
             <p>{task.description}</p>
-            <div>{task.component}</div>
+
+            <div className="w-full h-[80vh] border">
+                {task.component}
+            </div>
         </div>
     );
 };

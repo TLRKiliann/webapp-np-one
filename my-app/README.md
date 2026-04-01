@@ -117,13 +117,13 @@ orientation-spatiale
   - Citer le maximum de mots commençant par une lettre (P, R, F...)
   - Compléter des séries sémantiques interrompues (chien, chat, ...)            
 ok
-                                        
+
   ---                                                                           
   /langage/denomination                                                         
-  - Nommer un objet affiché (image → mot)                                       
+  - Nommer un objet affiché (image → mot)
   - Nommer à partir d'une description (définition → mot)
-  - Compléter une phrase à trou avec l'image comme indice ("on coupe le pain    
-  avec un...")                                                                  
+  - Compléter une phrase à trou avec l'image comme indice ("on coupe le pain
+  avec un...")
   - Dénomination avec amorçage phonologique (première syllabe donnée en indice) 
                                                                                 
   ---                                                                           

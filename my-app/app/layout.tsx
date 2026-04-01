@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import OverMenu from "./ui/OverMenu";
 import Menu from "./ui/Menu";
+import SecondMenu from "./ui/SecondMenu";
 import ThemeProvider from "./ui/ThemeProvider";
 import "./globals.css";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <main className="w-full h-full text-slate-800 dark:text-white bg-white dark:bg-black">
             <OverMenu />
             <Menu />
+            <SecondMenu />
             {children}
           </main>
         </ThemeProvider>
