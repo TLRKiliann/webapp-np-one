@@ -127,11 +127,21 @@ ok
   puis le verre")                                                           
   - Répondre par oui/non à des questions simples puis complexes                 
   - Associer une phrase entendue à l'image correspondante                       
-                                                                      1. Désignation → mot isolé                                                    
-  2. Questions oui/non → compréhension propositionnelle simple
-  3. Appariement phrase-image → compréhension syntaxique                        
-  4. Exécution d'ordres → compréhension séquentielle/syntaxique complexe
-   
+  1. Désignation → mot isolé                                                    
+  1. Questions oui/non → compréhension propositionnelle simple
+  2. Appariement phrase-image → compréhension syntaxique                        
+  3. Exécution d'ordres → compréhension séquentielle/syntaxique complexe
+
+---
+ok
+
+
+
+
+
+
+
+
   ---                                                                           
   /langage/repetition                                                           
   - Répéter des mots simples → complexes → pseudo-mots                          
@@ -144,8 +154,15 @@ Nommage:
   - Répétition de phrases → mémoire de travail verbale (empan)
   - Répétition de non-mots → boucle phonologique pure (sans appui lexical)      
   - Répétition rythmée → contourne le manque de fluence via l'hémisphère droit  
-  (principe de la MIT)                                                                          
-  ---                                                                           
+  (principe de la MIT)   
+
+
+
+
+
+  ---    
+
+
   /langage/lecture                                                              
   - Lire à voix haute des mots réguliers (bateau, maison...)                    
   - Lire à voix haute des mots irréguliers (femme, monsieur...)
@@ -168,7 +185,9 @@ Nommage:
   ├────────────────────────────┼────────────────────────────────────────────┤
   │ Lire une phrase et choisir │ Appariement phrase écrite-image            │   
   │  l'image                   │ (compréhension de phrases écrites)                                                                            
-  ---                                                                           
+  
+  ---                   
+
   /langage/ecriture
   - Copier des lettres, mots, phrases                                           
   - Écrire sous dictée (mots réguliers → irréguliers → pseudo-mots)
@@ -316,6 +335,7 @@ Nommage:
   └──────────────────────────────────────────────┴──────────────────────────────────────────────────────────┘
 
   ---
+  
   3. Mémoire des paires associées
 
   ┌────────────────────────────────────┬───────────────────────────────────────────────────────┐
@@ -329,6 +349,7 @@ Nommage:
   └────────────────────────────────────┴───────────────────────────────────────────────────────┘
 
   ---
+
   4. Mémoire sémantique et catégorielle
 
   ┌──────────────────────────────┬────────────────────────────────────────────────────────────────────────┐
