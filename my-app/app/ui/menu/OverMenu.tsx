@@ -28,7 +28,7 @@ export default function OverMenu() {
                 </li>
                 <li className="my-4">
                     <Link href="">
-                        English
+                        EN/FR
                     </Link>
                 </li>
                 <li className="my-4">

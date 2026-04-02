@@ -1,6 +1,6 @@
-import FluenceSemantic from "@/app/ui/fluenceExo/FluenceSemantic";
-import FluenceLitterale from "@/app/ui/fluenceExo/FluenceLitterale";
-import AssociationSemantic from "@/app/ui/fluenceExo/AssociationSemantic";
+import FluenceSemantic from "@/app/ui/language-exo/fluenceExo/FluenceSemantic";
+import FluenceLitterale from "@/app/ui/language-exo/fluenceExo/FluenceLitterale";
+import AssociationSemantic from "@/app/ui/language-exo/fluenceExo/AssociationSemantic";
 
 const tasks = {
     "1": {
