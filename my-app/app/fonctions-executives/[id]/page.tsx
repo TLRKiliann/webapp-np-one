@@ -1,21 +1,22 @@
-import SimpleHanoiFexec from "@/app/ui/fonctionsExecutives/SimpleHanoiFexec";
-import TrailMakingBFexec from "@/app/ui/fonctionsExecutives/TrailMakingBFexec";
-import TriCartesFexec from "@/app/ui/fonctionsExecutives/TriCartesFexec";
+import { fonctionsExecutivesLib } from "@/lib/fonction-executives";
+import SimpleHanoiFexec from "@/app/ui/fonctions-executives-exo/SimpleHanoiFexec";
+import TrailMakingBFexec from "@/app/ui/fonctions-executives-exo/TrailMakingBFexec";
+import TriCartesFexec from "@/app/ui/fonctions-executives-exo/TriCartesFexec";
 
 const tasks = {
     "1": {
-        title: "Trail Making B",
-        description: "Alterner chiffres et lettres (1-A-2-B...)",
+        title: fonctionsExecutivesLib.trailMakingB.title,
+        description: fonctionsExecutivesLib.trailMakingB.description,
         component: <TrailMakingBFexec />
     },
     "2": {
-        title: "Tours de Hanoï simplifiée",
-        description: "Déplacer des disques selon des règles",
+        title: fonctionsExecutivesLib.hanoi.title,
+        description: fonctionsExecutivesLib.hanoi.description,
         component: <SimpleHanoiFexec />
     },
     "3": {
-        title: "Tri de cartes (WCST adapté)",
-        description: "Deviner la règle de tri qui change",
+        title: fonctionsExecutivesLib.tricartes.title,
+        description: fonctionsExecutivesLib.tricartes.description,
         component: <TriCartesFexec />
     }
 };
@@ -30,14 +31,16 @@ export default async function Executives({ params }: { params: Promise<{ id: str
     };
 
     return (
-        <div>
+        <div className="p-4">
+
             <h1 className="text-3xl font-bold">{task.title}</h1>
             
-            <p>{task.description}</p>
+            <p className="mt-4 mb-6 ml-4">{task.description}</p>
 
-            <div className="w-full h-[80vh] border">
+            <div className="w-auto h-[70vh] border mx-4">
                 {task.component}
             </div>
+
         </div>
     );
 };

@@ -36,5 +36,5 @@ export default async function EcritureExo({params}: {params: Promise<{ id: strin
             </div>
 
         </div>
-    )
-}
+    );
+};

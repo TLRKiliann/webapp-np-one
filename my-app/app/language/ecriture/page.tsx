@@ -27,5 +27,5 @@ export default function Ecriture() {
             </nav>
 
         </div>
-    )
-}
+    );
+};

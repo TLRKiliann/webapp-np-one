@@ -39,6 +39,7 @@ export default async function LectureExo({params}: {params: Promise<{ id: string
 
     return (
         <div className="p-4">
+
             <h1 className="text-3xl font-bold">{task.title}</h1>
             
             <p className="mt-4 mb-6 ml-4">{task.description}</p>
@@ -48,5 +49,5 @@ export default async function LectureExo({params}: {params: Promise<{ id: string
             </div>
 
         </div>
-    )
-}
+    );
+};
