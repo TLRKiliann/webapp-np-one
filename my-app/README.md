@@ -135,13 +135,6 @@ ok
 ---
 ok
 
-
-
-
-
-
-
-
   ---                                                                           
   /langage/repetition                                                           
   - Répéter des mots simples → complexes → pseudo-mots                          
@@ -156,10 +149,7 @@ Nommage:
   - Répétition rythmée → contourne le manque de fluence via l'hémisphère droit  
   (principe de la MIT)   
 
-
-
-
-
+ok
   ---    
 
 
@@ -188,6 +178,10 @@ Nommage:
   
   ---                   
 
+ok
+
+---
+
   /langage/ecriture
   - Copier des lettres, mots, phrases                                           
   - Écrire sous dictée (mots réguliers → irréguliers → pseudo-mots)
@@ -204,6 +198,16 @@ Nommage:
   ├───────────────────────────────┼─────────────────────────────────────────┤
   │ Décrire une image par écrit   │ Écriture spontanée (production écrite   │
   │                               │ spontanée)    
+
+ok
+
+---
+
+
+
+
+
+
 
 ## MDT
 
@@ -297,6 +301,11 @@ Nommage:
   - Double modalité : combiner visuel + auditif pour renforcer l'encodage
   - Charge attentionnelle contrôlée : isoler une composante avant de les
   combiner
+
+
+
+
+
 
   ## memo verbale
 
