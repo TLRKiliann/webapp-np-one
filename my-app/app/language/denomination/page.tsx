@@ -11,22 +11,22 @@ export default function DenominationPage() {
                 <ul className="list-disc">
                     <li className="text-xl hover:text-green-500 mb-2">
                         <Link href="/language/denomination/1">
-                            Execrice 1
+                            Execrice 1: Dénomination sur confrontation visuelle
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
                         <Link href="/language/denomination/2">
-                            Execrice 2
+                            Execrice 2: Dénomination sur définition
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
                         <Link href="/language/denomination/3">
-                            Execrice 3
+                            Execrice 3: Complètement de phrase
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
                         <Link href="/language/denomination/4">
-                            Execrice 4
+                            Execrice 4: Dénomination avec amorçage
                         </Link>
                     </li>
                 </ul>
