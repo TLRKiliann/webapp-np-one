@@ -1,2 +1,4 @@
 # webapp-np-one
-neuro-psy cognitive remediation
+
+A cognitive rehabilitation app for post-AVC people.
+
