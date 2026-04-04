@@ -209,53 +209,10 @@ ok
 
 
 
+
 ## MDT
 
-  ⏺ Les exercices de remédiation de la mémoire de travail (MDT) s'organisent
-  autour de ses trois composantes (modèle de Baddeley) :
-
-  ---
-  1. Boucle phonologique (verbal/auditif)
-
-  ┌───────────────────────┬─────────────────────────────────────────────────┐
-  │       Exercice        │                   Description                   │
-  ├───────────────────────┼─────────────────────────────────────────────────┤
-  │ Empan de chiffres     │ Répéter une séquence de chiffres de longueur    │
-  │ endroit               │ croissante                                      │
-  ├───────────────────────┼─────────────────────────────────────────────────┤
-  │ Empan de chiffres     │ Répéter en ordre inverse (charge                │
-  │ envers                │ l'administrateur central)                       │
-  ├───────────────────────┼─────────────────────────────────────────────────┤
-  │ Empan de mots         │ Répéter des listes de mots de longueur          │
-  │                       │ croissante                                      │
-  ├───────────────────────┼─────────────────────────────────────────────────┤
-  │ Rappel sériel de      │ Mémoriser et restituer des séquences de lettres │
-  │ lettres               │                                                 │
-  ├───────────────────────┼─────────────────────────────────────────────────┤
-  │ Écoute dichotique     │ Mémoriser deux flux verbaux simultanés          │
-  └───────────────────────┴─────────────────────────────────────────────────┘
-
-  ---
-  2. Calepin visuo-spatial (visuel/spatial)
-
-  ┌────────────────────────┬────────────────────────────────────────────────┐
-  │        Exercice        │                  Description                   │
-  ├────────────────────────┼────────────────────────────────────────────────┤
-  │ Empan de Corsi         │ Reproduire une séquence de cases touchées sur  │
-  │                        │ une grille                                     │
-  ├────────────────────────┼────────────────────────────────────────────────┤
-  │ Mémorisation de        │ Retenir l'emplacement d'objets sur une grille  │
-  │ positions              │                                                │
-  ├────────────────────────┼────────────────────────────────────────────────┤
-  │ Rotation mentale       │ Manipuler mentalement des formes géométriques  │
-  ├────────────────────────┼────────────────────────────────────────────────┤
-  │ Labyrinthe de mémoire  │ Mémoriser un chemin puis le reproduire         │
-  ├────────────────────────┼────────────────────────────────────────────────┤
-  │ Matrix pattern         │ Mémoriser des motifs dans une grille n×n       │
-  └────────────────────────┴────────────────────────────────────────────────┘
-
-  ---
-  3. Administrateur central (attention + manipulation)
+  1. Administrateur central (attention + manipulation)
 
   ┌────────────────────┬────────────────────────────────────────────────────┐
   │      Exercice      │                    Description                     │
@@ -277,30 +234,8 @@ ok
   └────────────────────┴────────────────────────────────────────────────────┘
 
   ---
-  4. Buffer épisodique (intégration multimodale)
 
-  ┌───────────────────┬─────────────────────────────────────────────────────┐
-  │     Exercice      │                     Description                     │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Rappel de scènes  │ Mémoriser une image complexe et rappeler les        │
-  │                   │ détails                                             │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Association       │ Mémoriser des paires mot-image ou mot-mot           │
-  │ paires            │                                                     │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Récit court       │ Écouter une histoire courte et rappeler les         │
-  │                   │ éléments                                            │
-  └───────────────────┴─────────────────────────────────────────────────────┘
 
-  ---
-  Principes communs de remédiation MDT
-
-  - Progression par niveaux : augmenter l'empan ou la complexité graduellement
-  - Feedback immédiat : correction après chaque essai
-  - Répétition espacée : réintroduire les items à intervalles croissants
-  - Double modalité : combiner visuel + auditif pour renforcer l'encodage
-  - Charge attentionnelle contrôlée : isoler une composante avant de les
-  combiner
 
 
 

@@ -1,3 +1,4 @@
+import { BufferEpisodique } from "@/lib/memo-travail";
 import Link from "next/link";
 
 export default function BufferEpisodiquePage() {
@@ -9,15 +10,18 @@ export default function BufferEpisodiquePage() {
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/1">
+                        <Link href="/memo-travail/buffer-episodique/1">
+                            {BufferEpisodique.associationPaires.title}: {BufferEpisodique.associationPaires.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/2">
+                        <Link href="/memo-travail/buffer-episodique/2">
+                            {BufferEpisodique.rappelScenes.title}: {BufferEpisodique.rappelScenes.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/3">
+                        <Link href="/memo-travail/buffer-episodique/3">
+                            {BufferEpisodique.recitCourt.title}: {BufferEpisodique.recitCourt.description}
                         </Link>
                     </li>
                 </ul>
@@ -26,18 +30,3 @@ export default function BufferEpisodiquePage() {
         </div>
     );
 };
-
-//   4. Buffer épisodique (intégration multimodale)
-
-//   ┌───────────────────┬─────────────────────────────────────────────────────┐
-//   │     Exercice      │                     Description                     │
-//   ├───────────────────┼─────────────────────────────────────────────────────┤
-//   │ Rappel de scènes  │ Mémoriser une image complexe et rappeler les        │
-//   │                   │ détails                                             │
-//   ├───────────────────┼─────────────────────────────────────────────────────┤
-//   │ Association       │ Mémoriser des paires mot-image ou mot-mot           │
-//   │ paires            │                                                     │
-//   ├───────────────────┼─────────────────────────────────────────────────────┤
-//   │ Récit court       │ Écouter une histoire courte et rappeler les         │
-//   │                   │ éléments                                            │
-//   └───────────────────┴─────────────────────────────────────────────────────┘
