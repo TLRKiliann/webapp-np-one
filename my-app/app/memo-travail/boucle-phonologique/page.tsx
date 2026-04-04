@@ -7,8 +7,6 @@ export default function bouclephonologiquePage() {
             
             <h1 className="text-2xl font-bold">Boucle phonologique (verbal/auditif)</h1>
 
-            <p className="my-10">Planifier, s'adapter, inhiber les mauvaises réponses</p>
-
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
                     <li className="text-xl hover:text-green-500 mb-2">

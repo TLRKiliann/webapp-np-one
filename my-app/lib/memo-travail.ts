@@ -1,3 +1,5 @@
+import { BouclephonologiqueTypes, CalpinvisuospatialTypes } from "./definitions";
+
 export const bouclephonologique: BouclephonologiqueTypes = {
   empanEndroit: {
     title: "Empan de chiffres endroit",
@@ -45,50 +47,50 @@ export const calpinvisuospatial: CalpinvisuospatialTypes = {
 };
 
 
-  ---
-  3. Administrateur central (attention + manipulation)
+  // ---
+  // 3. Administrateur central (attention + manipulation)
 
-  ┌────────────────────┬────────────────────────────────────────────────────┐
-  │      Exercice      │                    Description                     │
-  ├────────────────────┼────────────────────────────────────────────────────┤
-  │ Double tâche       │ Réaliser deux tâches simultanées (ex. : compter +  │
-  │                    │ classer)                                           │
-  ├────────────────────┼────────────────────────────────────────────────────┤
-  │ N-back             │ Indiquer si le stimulus actuel est identique à     │
-  │                    │ celui de N étapes avant                            │
-  ├────────────────────┼────────────────────────────────────────────────────┤
-  │ Mise à jour en     │ Mémoriser une liste qui se met à jour, ne garder   │
-  │ mémoire            │ que les X derniers                                 │
-  ├────────────────────┼────────────────────────────────────────────────────┤
-  │ Empan de lecture   │ Lire des phrases + mémoriser le dernier mot de     │
-  │                    │ chacune                                            │
-  ├────────────────────┼────────────────────────────────────────────────────┤
-  │ Tri avec           │ Classer des éléments avec des distracteurs (type   │
-  │ interférence       │ Stroop)                                            │
-  └────────────────────┴────────────────────────────────────────────────────┘
+  // ┌────────────────────┬────────────────────────────────────────────────────┐
+  // │      Exercice      │                    Description                     │
+  // ├────────────────────┼────────────────────────────────────────────────────┤
+  // │ Double tâche       │ Réaliser deux tâches simultanées (ex. : compter +  │
+  // │                    │ classer)                                           │
+  // ├────────────────────┼────────────────────────────────────────────────────┤
+  // │ N-back             │ Indiquer si le stimulus actuel est identique à     │
+  // │                    │ celui de N étapes avant                            │
+  // ├────────────────────┼────────────────────────────────────────────────────┤
+  // │ Mise à jour en     │ Mémoriser une liste qui se met à jour, ne garder   │
+  // │ mémoire            │ que les X derniers                                 │
+  // ├────────────────────┼────────────────────────────────────────────────────┤
+  // │ Empan de lecture   │ Lire des phrases + mémoriser le dernier mot de     │
+  // │                    │ chacune                                            │
+  // ├────────────────────┼────────────────────────────────────────────────────┤
+  // │ Tri avec           │ Classer des éléments avec des distracteurs (type   │
+  // │ interférence       │ Stroop)                                            │
+  // └────────────────────┴────────────────────────────────────────────────────┘
 
-  ---
-  4. Buffer épisodique (intégration multimodale)
+  // ---
+  // 4. Buffer épisodique (intégration multimodale)
 
-  ┌───────────────────┬─────────────────────────────────────────────────────┐
-  │     Exercice      │                     Description                     │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Rappel de scènes  │ Mémoriser une image complexe et rappeler les        │
-  │                   │ détails                                             │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Association       │ Mémoriser des paires mot-image ou mot-mot           │
-  │ paires            │                                                     │
-  ├───────────────────┼─────────────────────────────────────────────────────┤
-  │ Récit court       │ Écouter une histoire courte et rappeler les         │
-  │                   │ éléments                                            │
-  └───────────────────┴─────────────────────────────────────────────────────┘
+  // ┌───────────────────┬─────────────────────────────────────────────────────┐
+  // │     Exercice      │                     Description                     │
+  // ├───────────────────┼─────────────────────────────────────────────────────┤
+  // │ Rappel de scènes  │ Mémoriser une image complexe et rappeler les        │
+  // │                   │ détails                                             │
+  // ├───────────────────┼─────────────────────────────────────────────────────┤
+  // │ Association       │ Mémoriser des paires mot-image ou mot-mot           │
+  // │ paires            │                                                     │
+  // ├───────────────────┼─────────────────────────────────────────────────────┤
+  // │ Récit court       │ Écouter une histoire courte et rappeler les         │
+  // │                   │ éléments                                            │
+  // └───────────────────┴─────────────────────────────────────────────────────┘
 
-  ---
-  Principes communs de remédiation MDT
+  // ---
+  // Principes communs de remédiation MDT
 
-  - Progression par niveaux : augmenter l'empan ou la complexité graduellement
-  - Feedback immédiat : correction après chaque essai
-  - Répétition espacée : réintroduire les items à intervalles croissants
-  - Double modalité : combiner visuel + auditif pour renforcer l'encodage
-  - Charge attentionnelle contrôlée : isoler une composante avant de les
-  combiner
+  // - Progression par niveaux : augmenter l'empan ou la complexité graduellement
+  // - Feedback immédiat : correction après chaque essai
+  // - Répétition espacée : réintroduire les items à intervalles croissants
+  // - Double modalité : combiner visuel + auditif pour renforcer l'encodage
+  // - Charge attentionnelle contrôlée : isoler une composante avant de les
+  // combiner
