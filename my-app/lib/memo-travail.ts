@@ -1,4 +1,4 @@
-import { BouclephonologiqueTypes, CalpinvisuospatialTypes } from "./definitions";
+import { AdminCentralType, BouclephonologiqueTypes, BufferEpisodiqueType, CalpinvisuospatialTypes } from "./definitions";
 
 export const bouclephonologique: BouclephonologiqueTypes = {
   empanEndroit: {
@@ -46,51 +46,40 @@ export const calpinvisuospatial: CalpinvisuospatialTypes = {
   },
 };
 
+export const BufferEpisodique: BufferEpisodiqueType = {
+  rappelScenes: {
+    title: "Rappel de scènes",
+    description: "Mémoriser une image complexe et rappeler les détails"
+  },
+  associationPaires: {
+    title: "AssociationPaires paires",
+    description: "Mémoriser des paires mot-image ou mot-mot"
+  },
+  recitCourt: {
+    title: "Récit court",
+    description: "Écouter une histoire courte et rappeler les éléments"
+  }
+};
 
-  // ---
-  // 3. Administrateur central (attention + manipulation)
-
-  // ┌────────────────────┬────────────────────────────────────────────────────┐
-  // │      Exercice      │                    Description                     │
-  // ├────────────────────┼────────────────────────────────────────────────────┤
-  // │ Double tâche       │ Réaliser deux tâches simultanées (ex. : compter +  │
-  // │                    │ classer)                                           │
-  // ├────────────────────┼────────────────────────────────────────────────────┤
-  // │ N-back             │ Indiquer si le stimulus actuel est identique à     │
-  // │                    │ celui de N étapes avant                            │
-  // ├────────────────────┼────────────────────────────────────────────────────┤
-  // │ Mise à jour en     │ Mémoriser une liste qui se met à jour, ne garder   │
-  // │ mémoire            │ que les X derniers                                 │
-  // ├────────────────────┼────────────────────────────────────────────────────┤
-  // │ Empan de lecture   │ Lire des phrases + mémoriser le dernier mot de     │
-  // │                    │ chacune                                            │
-  // ├────────────────────┼────────────────────────────────────────────────────┤
-  // │ Tri avec           │ Classer des éléments avec des distracteurs (type   │
-  // │ interférence       │ Stroop)                                            │
-  // └────────────────────┴────────────────────────────────────────────────────┘
-
-  // ---
-  // 4. Buffer épisodique (intégration multimodale)
-
-  // ┌───────────────────┬─────────────────────────────────────────────────────┐
-  // │     Exercice      │                     Description                     │
-  // ├───────────────────┼─────────────────────────────────────────────────────┤
-  // │ Rappel de scènes  │ Mémoriser une image complexe et rappeler les        │
-  // │                   │ détails                                             │
-  // ├───────────────────┼─────────────────────────────────────────────────────┤
-  // │ Association       │ Mémoriser des paires mot-image ou mot-mot           │
-  // │ paires            │                                                     │
-  // ├───────────────────┼─────────────────────────────────────────────────────┤
-  // │ Récit court       │ Écouter une histoire courte et rappeler les         │
-  // │                   │ éléments                                            │
-  // └───────────────────┴─────────────────────────────────────────────────────┘
-
-  // ---
-  // Principes communs de remédiation MDT
-
-  // - Progression par niveaux : augmenter l'empan ou la complexité graduellement
-  // - Feedback immédiat : correction après chaque essai
-  // - Répétition espacée : réintroduire les items à intervalles croissants
-  // - Double modalité : combiner visuel + auditif pour renforcer l'encodage
-  // - Charge attentionnelle contrôlée : isoler une composante avant de les
-  // combiner
+export const AdminCentral: AdminCentralType = {
+  doubleTache: {
+    title: "Double tâche",
+    description: "Réaliser deux tâches simultanées (ex. : compter + classer)"
+  },
+  nback: {
+    title: "N-back",
+    description: "Indiquer si le stimulus actuel est identique à celui de N étapes avant"
+  },
+  majmemo: {
+    title: "Mise à jour en mömoire",
+    description: "Mémoriser une liste qui se met à jour, ne garder que les X derniers"
+  },
+  empanlect: {
+    title: "Empan de lecture",
+    description: "Lire des phrases + mémoriser le dernier mot de chacune"
+  },
+  triavecinter: {
+    title: "Tri avec interférence",
+    description: "Classer des éléments avec des distracteurs (type Stroop)"
+  },
+};

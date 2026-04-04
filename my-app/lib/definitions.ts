@@ -33,7 +33,7 @@ export type BouclephonologiqueTypes = {
     ecouteDichotic: {
         title: string; 
         description: string; 
-    },
+    }
 };
 
 export type CalpinvisuospatialTypes = {
@@ -56,5 +56,43 @@ export type CalpinvisuospatialTypes = {
     matrixPattern: {
         title: string;
         description: string;
+    }
+};
+
+export type BufferEpisodiqueType = {
+    rappelScenes: {
+        title: string;
+        description: string;
     },
+    associationPaires: {
+        title: string;
+        description: string;
+    },
+    recitCourt: {
+        title: string;
+        description: string;
+    }
+};
+
+export type AdminCentralType = {
+  doubleTache: {
+    title: string;
+    description: string;
+  },
+  nback: {
+    title: string;
+    description: string;
+  },
+  majmemo: {
+    title: string;
+    description: string;
+  },
+  empanlect: {
+    title: string;
+    description: string;
+  },
+  triavecinter: {
+    title: string;
+    description: string;
+  },
 };
