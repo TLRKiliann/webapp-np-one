@@ -18,7 +18,7 @@ export default function OverMenu() {
                     </Link>
                 </li>
                 <li className="flex items-center gap-6 py-3">
-                    <Link href="" className="hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/login" className="hover:text-violet-300 transition-colors duration-200">
                         Login
                     </Link>
                     <Link href="" className="hover:text-violet-300 transition-colors duration-200">
