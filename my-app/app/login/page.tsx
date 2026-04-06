@@ -46,6 +46,7 @@ export default function LoginPage() {
             <input
               type="email"
               name="email"
+              placeholder="admin@demo.fr"
               required
               className="w-full border border-slate-300 dark:border-slate-600 rounded-lg px-3 py-2 bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -58,6 +59,7 @@ export default function LoginPage() {
             <input
               type="password"
               name="password"
+              placeholder="admin123"
               required
               className="w-full border border-slate-300 dark:border-slate-600 rounded-lg px-3 py-2 bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
