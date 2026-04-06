@@ -52,7 +52,7 @@ export const BufferEpisodique: BufferEpisodiqueType = {
     description: "Mémoriser une image complexe et rappeler les détails"
   },
   associationPaires: {
-    title: "AssociationPaires paires",
+    title: "Association paires",
     description: "Mémoriser des paires mot-image ou mot-mot"
   },
   recitCourt: {

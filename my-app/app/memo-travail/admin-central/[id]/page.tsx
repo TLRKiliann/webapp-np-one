@@ -26,7 +26,7 @@ export default async function AdminCentralExo({ params }: { params: Promise<{ id
         "3": {
             title: AdminCentral.majmemo.title,
             description: AdminCentral.majmemo.description,
-            component: <MiseAJourMemo />
+            component: <MiseAJourMemo patientId={patientId} />
         },
         "4": {
             title: AdminCentral.empanlect.title,

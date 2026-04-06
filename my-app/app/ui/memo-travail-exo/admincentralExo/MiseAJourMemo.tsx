@@ -8,7 +8,7 @@ const WORD_BANK = [
     "fleur", "route", "porte", "fleuve", "lune", "stylo", "ville", "forêt",
     "pain", "rivière", "école", "chaise", "fenêtre", "clé", "oiseau", "pierre",
     "montagne", "jardin", "miroir", "horloge", "bateau", "étoile", "champ", "lettre",
-    "violon", "ballon", "nuage", "bougie", "casque", "feuille", "marché", "phare",
+    "violon", "ballon", "corbeau", "bougie", "casque", "feuille", "marché", "phare",
 ];
 
 type Phase = "idle" | "showing" | "recall" | "correct" | "wrong" | "finished";
