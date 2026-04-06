@@ -71,7 +71,7 @@ export const AdminCentral: AdminCentralType = {
     description: "Indiquer si le stimulus actuel est identique à celui de N étapes avant"
   },
   majmemo: {
-    title: "Mise à jour en mömoire",
+    title: "Mise à jour en mémoire",
     description: "Mémoriser une liste qui se met à jour, ne garder que les X derniers"
   },
   empanlect: {

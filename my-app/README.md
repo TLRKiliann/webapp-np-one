@@ -812,7 +812,7 @@ ok
   │ Automatisation             │ Practice intensive, progression par seuils │
   └────────────────────────────┴────────────────────────────────────────────┘                                                                                                                               
    
-## fonctions exöcutive
+## fonctions exécutive
 
 ⏺ Oui, ta base est solide — ce sont trois références incontournables. Voici ce qui peut compléter :                                                                                                         
                                                                                                                                                                                                             

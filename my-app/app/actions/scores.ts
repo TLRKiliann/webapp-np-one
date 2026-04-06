@@ -5,6 +5,8 @@ import { scores } from "@/lib/db/schema";
 
 export async function saveScore(data: {
     patientId: string;
+    exercice: string;
+    domaine: string;
     score: number;
     empan: number;
 }) {
@@ -14,8 +16,8 @@ export async function saveScore(data: {
 
     await db.insert(scores).values({
         patientId: data.patientId,
-        exercice: "Empan de Corsi",
-        domaine: "calepin-visuo-spatial",
+        exercice: data.exercice,
+        domaine: data.domaine,
         score: data.score,
         niveauDifficulte,
     });

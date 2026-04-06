@@ -10,27 +10,27 @@ export default function AdministrateurCentralPage() {
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/1">
+                        <Link href="/memo-travail/admin-central/1">
                             {AdminCentral.doubleTache.title}: {AdminCentral.doubleTache.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/2">
+                        <Link href="/memo-travail/admin-central/2">
                             {AdminCentral.nback.title}: {AdminCentral.nback.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/3">
+                        <Link href="/memo-travail/admin-central/3">
                             {AdminCentral.majmemo.title}: {AdminCentral.majmemo.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/4">
+                        <Link href="/memo-travail/admin-central/4">
                             {AdminCentral.empanlect.title}: {AdminCentral.empanlect.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-green-500 mb-2">
-                        <Link href="/fonctions-executives/5">
+                        <Link href="/memo-travail/admin-central/5">
                             {AdminCentral.triavecinter.title}: {AdminCentral.triavecinter.description}
                         </Link>
                     </li>
