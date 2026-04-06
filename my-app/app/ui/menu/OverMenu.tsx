@@ -13,10 +13,10 @@ export default async function OverMenu() {
                     <Link href="/" className="hover:text-green-300 dark:hover:text-violet-300 transition-colors duration-200">
                         <MdHome size={20} />
                     </Link>
-                    <Link href="" className="hover:text-green-300 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/patient" className="hover:text-green-300 dark:hover:text-violet-300 transition-colors duration-200">
                         Patient
                     </Link>
-                    <Link href="" className="hover:text-green-300 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/scores" className="hover:text-green-300 dark:hover:text-violet-300 transition-colors duration-200">
                         Score
                     </Link>
                 </li>
