@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SecondMenu() {
     return (
-        <nav className="bg-indigo-800 dark:bg-indigo-800 border-b border-indigo-700">
+        <nav className="bg-green-600 dark:bg-indigo-800 border-b border-green-600 dark:border-indigo-700">
             <ul className="list-none flex flex-row items-center justify-evenly text-sm text-indigo-100 font-semibold tracking-wide py-3">
                 <li>
                     <Link

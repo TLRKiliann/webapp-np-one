@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
     return (
-        <nav className="bg-indigo-900 dark:bg-indigo-900 border-b border-indigo-700">
+        <nav className="bg-green-700 dark:bg-indigo-900 border-b border-green-700 dark:border-indigo-700">
             <ul className="list-none flex flex-row items-center justify-evenly text-sm text-indigo-100 font-semibold tracking-wide py-3">
                 <li>
                     <Link

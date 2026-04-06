@@ -26,17 +26,17 @@ export default function Home() {
   return (
     <div className="p-4">
 
-      <div className="border border-red-500">
+      <div className="">
         <h1 className="text-3xl font-bold">Accueil</h1>
       </div>
 
-      <div className="p-4 border border-orange-500">
+      <div className="p-4">
 
-        <div className="border border-green-500 mt-4 mb-6">
+        <div className="mt-4 mb-6">
           <h2 className="text-2xl font-bold">Intro</h2>
         </div>
 
-        <div className="bg-slate-100/50 rounded-lg mx-4 p-4">
+        <div className="bg-slate-100/50 dark:bg-indigo-800 rounded-lg mx-4 p-4">
           Bienvenue sur la page d'accueil de Neuro-Psy-Med.
           <br />
           Aucune données personnelles ne sera transmises à une organisation tierse ou à toute autre
@@ -46,15 +46,15 @@ export default function Home() {
         </div>
 
 
-        <div className="border border-green-500 mt-10 mb-6">
+        <div className="mt-10 mb-6">
           <h2 className="text-2xl font-bold">Quelques questions</h2>
         </div>
 
 
-        <div className="bg-slate-100/50 rounded-lg m-4 p-4">
+        <div className="bg-slate-100/50 dark:bg-indigo-800 rounded-lg m-4 p-4">
           <p>1) Quel degré de fatigue ressentez-vous aujourd'hui ?</p>
 
-          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-slate-800 border border-slate-200 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="fatigue1">
               <input 
@@ -100,7 +100,7 @@ export default function Home() {
 
           <p>2) Avez-vous des douleurs actuellement ?</p>
 
-          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-slate-800 border border-slate-200 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="dlroui">
               <input 
@@ -132,7 +132,7 @@ export default function Home() {
 
           <p>3) Si oui, pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
 
-          <div className="flex flex-row items-center justify-around bg-white dark:bg-slate-800 border border-slate-200 rounded-lg mx-40 mt-4 mb-8 py-4">
+          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mx-40 mt-4 mb-8 py-4">
 
             <label htmlFor="dlr1">
               <input type="radio" id="dlr1" name="dlr1" 
@@ -216,12 +216,12 @@ export default function Home() {
           <p>4) Quel niveau de difficulté choisissez-vous (avec Dashboard)</p>
         </div>
 
-        <nav className="flex justify-center py-8 border border-blue-500">
+        <nav className="flex justify-center py-8">
           <ul className="disc-none">
             <li>
               <Link 
                 href="/fonctions-executives"
-                className="text-base font-bold text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-400 rounded-lg px-6 py-4"
+                className="text-base font-bold text-white bg-green-600 hover:bg-green-700 active:bg-green-500 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:active:bg-indigo-500 rounded-lg px-6 py-4"
               >
                   Commencer l'entraînement
               </Link>
