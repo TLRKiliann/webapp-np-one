@@ -1,21 +1,31 @@
-# webapp-np-one
+# Webapp Neuro-Psy
 
 A cognitive rehabilitation app for post-AVC people.
 
+(This is a demo project)
 
+## Run
 
-pnpm add react-icons
+`cd my-app`
 
-pnpm add drizzle-orm @neondatabase/serverless next-auth@beta bcryptjs &&
+`pnpm install`
 
-pnpm add -D drizzle-kit @types/bcryptjs     
+`pnpm dev`
 
+`pnpm build`
 
-1.  https://neon.tech
-psql -h pg.neon.tech  
+## Install
 
-3. Crée un projet → copie la connection string (format postgresql://...) 
+`pnpm add react-icons`
 
+`pnpm add drizzle-orm @neondatabase/serverless next-auth@beta bcryptjs`
 
-pnpm add -D pg @types/pg)
-  ⎿  Running…                     
+`pnpm add -D drizzle-kit @types/bcryptjs`
+
+## Neon https://neon.tech
+
+`psql -h pg.neon.tech`
+
+copy string of postgresql://... to .env file
+
+`pnpm add -D pg @types/pg`
