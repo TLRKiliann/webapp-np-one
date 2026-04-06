@@ -8,6 +8,7 @@ export default function Home() {
   const [optionFatigue, setOptionFatigue] = useState<string | undefined>(undefined);
   const [optionDlr, setOptionDlr] = useState<string | undefined>(undefined);
   const [douleurState, setDouleurState] = useState<string | undefined>(undefined);
+  const [levelState, setLevelState] = useState<string | undefined>(undefined);
 
   const handleFatigue = (e: ChangeEvent<HTMLInputElement>): void => {
     setOptionFatigue(e.target.value);
@@ -21,12 +22,14 @@ export default function Home() {
     setDouleurState(e.target.value);
   }
 
-  console.log(optionFatigue);
+  const handleEvaLevel = (e: ChangeEvent<HTMLInputElement>): void => {
+    setLevelState(e.target.value);
+  };
 
   return (
     <div className="p-4">
 
-      <div className="">
+      <div>
         <h1 className="text-3xl font-bold">Accueil</h1>
       </div>
 
@@ -47,7 +50,7 @@ export default function Home() {
 
 
         <div className="mt-10 mb-6">
-          <h2 className="text-2xl font-bold">Quelques questions</h2>
+          <h2 className="text-2xl font-bold">Quelques questions avant de commencer</h2>
         </div>
 
 
@@ -132,7 +135,7 @@ export default function Home() {
 
           <p>3) Si oui, pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
 
-          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mx-40 mt-4 mb-8 py-4">
+          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
 
             <label htmlFor="dlr1">
               <input type="radio" id="dlr1" name="dlr1" 
@@ -206,14 +209,39 @@ export default function Home() {
 
           </div>
 
-          <p>Vous sentez-vous stressé ?</p>
+          <p>4) Vous sentez-vous stressé ?</p>
 
-          <p className="text-justify">
+          <p className="text-justify mt-4 mb-8">
             Si oui, faîtes un exercice de mindfullness axé sur la respiration pendant une minute ou deux. Puis quand vous vous sentez prêt, 
             commencez l'entraînement.
           </p>
 
-          <p>4) Quel niveau de difficulté choisissez-vous (avec Dashboard)</p>
+          <p>5) Quel niveau de difficulté choisissez-vous ?</p>
+
+          <div className="w-60 flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-4 py-4">
+            <label htmlFor="level1">
+              <input type="radio" id="level1" name="level1" 
+                value="level1" checked={levelState === "level1"} onChange={handleEvaLevel} 
+                className="mr-2"/>
+              1
+            </label>
+
+            <label htmlFor="level2">
+              <input type="radio" id="level2" name="level2" 
+                value="level2" checked={levelState === "level2"} onChange={handleEvaLevel} 
+                className="mr-2"/>
+              2
+            </label>
+
+            <label htmlFor="level3">
+              <input type="radio" id="level3" name="level3" 
+                value="level3" checked={levelState === "level3"} onChange={handleEvaLevel} 
+                className="mr-2"/>
+              3
+            </label>
+
+          </div>
+
         </div>
 
         <nav className="flex justify-center py-8">
