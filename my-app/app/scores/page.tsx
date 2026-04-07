@@ -3,6 +3,7 @@ import { scores, patients, seances } from "@/lib/db/schema";
 import { auth } from "@/auth";
 import { eq } from "drizzle-orm";
 import { redirect } from "next/navigation";
+import { deleteScore, deleteSeance } from "@/app/actions/scores";
 
 export default async function ScoresPage() {
     const session = await auth();
@@ -74,6 +75,7 @@ export default async function ScoresPage() {
                                 <th className="text-left px-4 py-3">Score</th>
                                 <th className="text-left px-4 py-3">Difficulté</th>
                                 <th className="text-left px-4 py-3">Date</th>
+                                <th className="px-4 py-3" />
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
@@ -108,6 +110,14 @@ export default async function ScoresPage() {
                                             minute: "2-digit",
                                         })}
                                     </td>
+                                    <td className="px-4 py-3 text-right">
+                                        <form action={deleteScore}>
+                                            <input type="hidden" name="id" value={row.id} />
+                                            <button type="submit" className="text-xs text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300">
+                                                Supprimer
+                                            </button>
+                                        </form>
+                                    </td>
                                 </tr>
                             ))}
                         </tbody>
@@ -133,6 +143,7 @@ export default async function ScoresPage() {
                                 <th className="text-left px-4 py-3">Douleur</th>
                                 <th className="text-left px-4 py-3">EVA</th>
                                 <th className="text-left px-4 py-3">Date</th>
+                                <th className="px-4 py-3" />
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
@@ -163,6 +174,14 @@ export default async function ScoresPage() {
                                             hour: "2-digit",
                                             minute: "2-digit",
                                         })}
+                                    </td>
+                                    <td className="px-4 py-3 text-right">
+                                        <form action={deleteSeance}>
+                                            <input type="hidden" name="id" value={row.id} />
+                                            <button type="submit" className="text-xs text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300">
+                                                Supprimer
+                                            </button>
+                                        </form>
                                     </td>
                                 </tr>
                             ))}

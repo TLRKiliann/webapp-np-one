@@ -1,7 +1,9 @@
 "use server";
 
 import { db } from "@/lib/db";
-import { scores } from "@/lib/db/schema";
+import { scores, seances } from "@/lib/db/schema";
+import { eq } from "drizzle-orm";
+import { revalidatePath } from "next/cache";
 
 export async function saveScore(data: {
     patientId: string;
@@ -21,4 +23,16 @@ export async function saveScore(data: {
         score: data.score,
         niveauDifficulte,
     });
+}
+
+export async function deleteScore(formData: FormData) {
+    const id = formData.get("id") as string;
+    await db.delete(scores).where(eq(scores.id, id));
+    revalidatePath("/scores");
+}
+
+export async function deleteSeance(formData: FormData) {
+    const id = formData.get("id") as string;
+    await db.delete(seances).where(eq(seances.id, id));
+    revalidatePath("/scores");
 }
