@@ -18,6 +18,10 @@ A cognitive rehabilitation app for post-AVC people.
 
 `pnpm add react-icons`
 
+`pnpm add @neondatabase/serverless prisma @prisma/client`
+
+`pnpm dlx prisma init`
+
 `pnpm add drizzle-orm @neondatabase/serverless next-auth@beta bcryptjs`
 
 `pnpm add -D drizzle-kit @types/bcryptjs`
