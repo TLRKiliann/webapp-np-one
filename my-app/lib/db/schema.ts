@@ -6,10 +6,12 @@ import {
   timestamp,
   integer,
   pgEnum,
+  boolean,
 } from "drizzle-orm/pg-core";
 
 export const roleEnum = pgEnum("role", ["admin", "therapeute"]);
 export const difficulteEnum = pgEnum("difficulte", ["facile", "moyen", "difficile"]);
+export const fatigueEnum = pgEnum("fatigue", ["pas_du_tout", "un_peu", "moyennement"]);
 
 export const users = pgTable("users", {
   id: uuid("id").defaultRandom().primaryKey(),
@@ -43,9 +45,22 @@ export const scores = pgTable("scores", {
   date: timestamp("date").defaultNow().notNull(),
 });
 
+export const seances = pgTable("seances", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  patientId: uuid("patient_id")
+    .notNull()
+    .references(() => patients.id, { onDelete: "cascade" }),
+  fatigue: fatigueEnum("fatigue").notNull(),
+  aDouleur: boolean("a_douleur").notNull(),
+  evaDouleur: integer("eva_douleur"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
 export type User = typeof users.$inferSelect;
 export type NewUser = typeof users.$inferInsert;
 export type Patient = typeof patients.$inferSelect;
 export type NewPatient = typeof patients.$inferInsert;
 export type Score = typeof scores.$inferSelect;
 export type NewScore = typeof scores.$inferInsert;
+export type Seance = typeof seances.$inferSelect;
+export type NewSeance = typeof seances.$inferInsert;

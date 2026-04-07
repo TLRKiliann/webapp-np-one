@@ -1,14 +1,15 @@
 "use client";
 
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
+
 
 export default function Home() {
 
+  const router = useRouter();
   const [optionFatigue, setOptionFatigue] = useState<string | undefined>(undefined);
   const [optionDlr, setOptionDlr] = useState<string | undefined>(undefined);
   const [douleurState, setDouleurState] = useState<string | undefined>(undefined);
-  const [levelState, setLevelState] = useState<string | undefined>(undefined);
 
   const handleFatigue = (e: ChangeEvent<HTMLInputElement>): void => {
     setOptionFatigue(e.target.value);
@@ -20,10 +21,24 @@ export default function Home() {
 
   const handleEvaDlr = (e: ChangeEvent<HTMLInputElement>): void => {
     setDouleurState(e.target.value);
-  }
+  };
 
-  const handleEvaLevel = (e: ChangeEvent<HTMLInputElement>): void => {
-    setLevelState(e.target.value);
+  const handleCommencer = async (): Promise<void> => {
+    if (!optionFatigue || !optionDlr) return;
+
+    const evaDouleur = douleurState ? parseInt(douleurState.replace("dlr", "")) : null;
+
+    await fetch("/api/seance", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        fatigue: optionFatigue,
+        aDouleur: optionDlr === "oui",
+        evaDouleur,
+      }),
+    });
+
+    router.push("/fonctions-executives");
   };
 
   return (
@@ -216,43 +231,18 @@ export default function Home() {
             commencez l'entraînement.
           </p>
 
-          <p>5) Quel niveau de difficulté choisissez-vous ?</p>
-
-          <div className="w-60 flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-4 py-4">
-            <label htmlFor="level1">
-              <input type="radio" id="level1" name="level1" 
-                value="level1" checked={levelState === "level1"} onChange={handleEvaLevel} 
-                className="mr-2"/>
-              1
-            </label>
-
-            <label htmlFor="level2">
-              <input type="radio" id="level2" name="level2" 
-                value="level2" checked={levelState === "level2"} onChange={handleEvaLevel} 
-                className="mr-2"/>
-              2
-            </label>
-
-            <label htmlFor="level3">
-              <input type="radio" id="level3" name="level3" 
-                value="level3" checked={levelState === "level3"} onChange={handleEvaLevel} 
-                className="mr-2"/>
-              3
-            </label>
-
-          </div>
-
         </div>
 
         <nav className="flex justify-center py-8">
           <ul className="disc-none">
             <li>
-              <Link 
-                href="/fonctions-executives"
-                className="text-base font-bold text-white bg-green-600 hover:bg-green-700 active:bg-green-500 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:active:bg-indigo-500 rounded-lg px-6 py-4"
+              <button
+                onClick={handleCommencer}
+                disabled={!optionFatigue || !optionDlr}
+                className="text-base font-bold text-white bg-green-600 hover:bg-green-700 active:bg-green-500 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:active:bg-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-6 py-4"
               >
-                  Commencer l'entraînement
-              </Link>
+                Commencer l'entraînement
+              </button>
             </li>
           </ul>
         </nav>
