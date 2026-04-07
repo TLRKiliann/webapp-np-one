@@ -141,7 +141,7 @@ export default function TrailMakingBFexec({ patientId }: { patientId: string | n
                 <span>Temps : <strong className="text-indigo-600 dark:text-indigo-300">{formatTime(elapsed)}</strong></span>
                 <span>Erreurs : <strong className={errors >= 3 ? "text-red-500" : ""}>{errors}</strong></span>
                 {phase === "playing" && (
-                    <span>Prochain : <strong className="text-green-600 dark:text-green-400">{nextTarget}</strong></span>
+                    <span>Prochain : <strong className="text-emerald-600 dark:text-green-400">{nextTarget}</strong></span>
                 )}
                 <span className="ml-auto text-slate-400 capitalize">{difficulty}</span>
             </div>

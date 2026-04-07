@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
-          <main className="w-full h-full text-green-700 dark:text-white bg-white dark:bg-indigo-950">
-            <OverMenu />
-            <Menu />
-            <SecondMenu />
+          <OverMenu />
+          <Menu />
+          <SecondMenu />
+          <main className="w-full min-h-[calc(100vh-135px)] text-emerald-700 dark:text-white bg-white dark:bg-indigo-950 p-4">
             {children}
           </main>
         </ThemeProvider>

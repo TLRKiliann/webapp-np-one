@@ -56,12 +56,12 @@ export default async function ScoresPage() {
 
     return (
         <div className="p-6 max-w-5xl mx-auto">
-            <h1 className="text-2xl font-bold text-slate-800 dark:text-white mb-6">
+            <h1 className="text-2xl font-bold dark:text-white mb-6">
                 Scores
             </h1>
 
             {results.length === 0 ? (
-                <div className="text-center py-16 text-slate-400 dark:text-slate-500">
+                <div className="text-center py-16 dark:text-slate-500">
                     Aucun score enregistré pour l'instant.
                 </div>
             ) : (
@@ -125,12 +125,12 @@ export default async function ScoresPage() {
                 </div>
             )}
 
-            <h2 className="text-xl font-bold text-slate-800 dark:text-white mt-10 mb-6">
+            <h2 className="text-xl font-bold dark:text-white mt-10 mb-6">
                 État avant séance
             </h2>
 
             {seancesResults.length === 0 ? (
-                <div className="text-center py-16 text-slate-400 dark:text-slate-500">
+                <div className="text-center py-16 dark:text-slate-500">
                     Aucune séance enregistrée pour l'instant.
                 </div>
             ) : (

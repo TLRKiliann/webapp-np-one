@@ -36,8 +36,8 @@ export default async function DenominationExo({params}: {params: Promise<{ id: s
     const task = tasks[id as keyof typeof tasks];
 
     return (
-        <div className="p-4">
-            <h1 className="text-3xl font-bold">{task.title}</h1>
+        <div>
+            <h1 className="text-2xl font-bold">{task.title}</h1>
             
             <p className="mt-4 mb-6 ml-4">{task.description}</p>
 

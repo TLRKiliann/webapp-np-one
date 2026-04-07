@@ -140,7 +140,7 @@ export default function RappelDesScenes({ patientId }: { patientId: string | nul
             {/* Stats */}
             <div className="flex gap-8 text-sm font-medium text-slate-700 dark:text-slate-300">
                 <span>Scène : <strong className="text-indigo-600 dark:text-indigo-300">{sceneIndex + 1} / {SCENES.length}</strong></span>
-                <span>Score : <strong className="text-green-600 dark:text-green-400">{totalScore}</strong></span>
+                <span>Score : <strong className="text-emerald-600 dark:text-green-400">{totalScore}</strong></span>
                 <span>Record : <strong className="text-yellow-600 dark:text-yellow-400">{record} / {scene?.questions.length}</strong></span>
             </div>
 
@@ -222,7 +222,7 @@ export default function RappelDesScenes({ patientId }: { patientId: string | nul
                         </p>
                         <div className="flex gap-2 justify-center">
                             {sceneResults.map((ok, i) => (
-                                <span key={i} className={`text-xl ${ok ? "text-green-500" : "text-red-400"}`}>
+                                <span key={i} className={`text-xl ${ok ? "text-emerald-500" : "text-red-400"}`}>
                                     {ok ? "✓" : "✗"}
                                 </span>
                             ))}

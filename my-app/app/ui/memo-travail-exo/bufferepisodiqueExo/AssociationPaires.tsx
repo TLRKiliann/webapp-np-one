@@ -175,7 +175,7 @@ export default function AssociationPairesExo({ patientId }: { patientId: string 
             {/* Stats */}
             <div className="flex gap-8 text-sm font-medium text-slate-700 dark:text-slate-300">
                 <span>Manche : <strong className="text-indigo-600 dark:text-indigo-300">{displayRound} / {ROUNDS}</strong></span>
-                <span>Score : <strong className="text-green-600 dark:text-green-400">{displayScore}</strong></span>
+                <span>Score : <strong className="text-emerald-600 dark:text-green-400">{displayScore}</strong></span>
                 <span>Record : <strong className="text-yellow-600 dark:text-yellow-400">{displayRecord} / {maxPerRound}</strong></span>
                 <span className="ml-auto text-slate-400 capitalize">{difficulty}</span>
             </div>
@@ -250,7 +250,7 @@ export default function AssociationPairesExo({ patientId }: { patientId: string 
                         </p>
                         <div className="text-center">
                             <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Quel mot était associé à…</p>
-                            <p className="text-3xl font-bold text-slate-800 dark:text-white">
+                            <p className="text-2xl font-bold text-slate-800 dark:text-white">
                                 {recallPair.word}
                             </p>
                         </div>
@@ -288,7 +288,7 @@ export default function AssociationPairesExo({ patientId }: { patientId: string 
                         </p>
                         <div className="flex gap-2 justify-center">
                             {displayRoundResults.map((ok, i) => (
-                                <span key={i} className={`text-xl ${ok ? "text-green-500" : "text-red-400"}`}>
+                                <span key={i} className={`text-xl ${ok ? "text-emerald-500" : "text-red-400"}`}>
                                     {ok ? "✓" : "✗"}
                                 </span>
                             ))}

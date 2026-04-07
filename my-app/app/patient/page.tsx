@@ -14,14 +14,14 @@ export default async function PatientPage() {
     ]);
 
     return (
-        <div className="p-6 max-w-4xl h-screen mx-auto">
+        <div className="p-6 max-w-4xl mx-auto">
             <div className="flex items-center justify-between mb-6">
                 <div>
-                    <h1 className="text-2xl font-bold text-slate-800 dark:text-white">
+                    <h1 className="text-2xl font-bold dark:text-white">
                         Patients
                     </h1>
                     {selectedPatient && (
-                        <p className="text-sm text-green-600 dark:text-green-400 mt-1">
+                        <p className="text-sm text-emerald-600 dark:text-green-400 mt-1">
                             Patient actif : <strong>{selectedPatient.prenom} {selectedPatient.nom}</strong>
                         </p>
                     )}
@@ -75,7 +75,7 @@ export default async function PatientPage() {
                                         </td>
                                         <td className="px-4 py-3 text-right">
                                             {isActive ? (
-                                                <span className="text-xs text-green-600 dark:text-green-400 font-semibold">
+                                                <span className="text-xs text-emerald-600 dark:text-green-400 font-semibold">
                                                     Actif
                                                 </span>
                                             ) : (

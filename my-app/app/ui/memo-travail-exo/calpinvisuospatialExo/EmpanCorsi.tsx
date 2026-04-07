@@ -133,7 +133,7 @@ export default function EmpanCorsi({ patientId }: { patientId: string | null }) 
         idle:     { text: "Appuyez sur Démarrer pour commencer",                              color: "text-slate-500 dark:text-slate-400" },
         showing:  { text: "Mémorisez la séquence...",                                          color: "text-blue-600 dark:text-blue-400" },
         input:    { text: `Reproduisez la séquence (${userInput.length} / ${sequence.length})`, color: "text-indigo-600 dark:text-indigo-300" },
-        correct:  { text: "Correct ! Niveau suivant...",                                        color: "text-green-600 dark:text-green-400" },
+        correct:  { text: "Correct ! Niveau suivant...",                                        color: "text-emerald-600 dark:text-green-400" },
         wrong:    { text: "Erreur ! On recommence...",                                          color: "text-red-600 dark:text-red-400" },
         finished: { text: `Exercice terminé — Score final : ${score}`,                          color: "text-red-700 dark:text-red-400 font-bold" },
     };
@@ -146,7 +146,7 @@ export default function EmpanCorsi({ patientId }: { patientId: string | null }) 
             {/* Stats */}
             <div className="flex gap-8 text-sm font-medium text-slate-700 dark:text-slate-300">
                 <span>Empan : <strong className="text-indigo-600 dark:text-indigo-300">{span}</strong></span>
-                <span>Score : <strong className="text-green-600 dark:text-green-400">{score}</strong></span>
+                <span>Score : <strong className="text-emerald-600 dark:text-green-400">{score}</strong></span>
                 <span>Erreurs : <strong className={errors >= 2 ? "text-red-600" : "text-slate-700 dark:text-slate-300"}>{errors}</strong> / 3</span>
                 <span>Record : <strong className="text-yellow-600 dark:text-yellow-400">{record}</strong></span>
             </div>

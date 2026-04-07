@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function MemoTravailPage() {
     return (
-        <div className="h-screen p-4">
+        <div>
 
-            <h1 className="text-3xl font-bold">Mémoire de travail</h1>
+            <h1 className="text-2xl font-bold">Mémoire de travail</h1>
 
             <h3 className="text-xl font-bold m-4">
                 Principes communs de remédiation MDT
@@ -20,22 +20,22 @@ export default function MemoTravailPage() {
 
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
-                    <li className="text-xl hover:text-green-500 mb-2">
+                    <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/memo-travail/boucle-phonologique">
                             Boucle phonologique (verbal/auditif)
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-green-500 mb-2">
+                    <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial">
                             Calepin visuo-spatial (visuel/spatial)
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-green-500 mb-2">
+                    <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/memo-travail/admin-central">
                             Administrateur central (attention + manipulation)
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-green-500 mb-2">
+                    <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/memo-travail/buffer-episodique">
                             Buffer épisodique (intégration multimodale)
                         </Link>

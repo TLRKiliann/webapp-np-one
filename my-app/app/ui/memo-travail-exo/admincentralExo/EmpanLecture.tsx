@@ -148,7 +148,7 @@ export default function EmpanLecture({ patientId }: { patientId: string | null }
             {/* Stats */}
             <div className="flex gap-8 text-sm font-medium text-slate-700 dark:text-slate-300">
                 <span>Empan : <strong className="text-indigo-600 dark:text-indigo-300">{span}</strong></span>
-                <span>Score : <strong className="text-green-600 dark:text-green-400">{score}</strong></span>
+                <span>Score : <strong className="text-emerald-600 dark:text-green-400">{score}</strong></span>
                 <span>Erreurs : <strong className={errors >= 2 ? "text-red-600" : ""}>{errors}</strong> / 3</span>
                 <span>Record : <strong className="text-yellow-600 dark:text-yellow-400">{record}</strong></span>
             </div>
@@ -202,7 +202,7 @@ export default function EmpanLecture({ patientId }: { patientId: string | null }
                             </button>
                         </div>
                         {judgeFeedback && (
-                            <p className={`text-sm font-semibold ${judgeFeedback === "correct" ? "text-green-500" : "text-red-500"}`}>
+                            <p className={`text-sm font-semibold ${judgeFeedback === "correct" ? "text-emerald-500" : "text-red-500"}`}>
                                 {judgeFeedback === "correct" ? "Correct !" : "Incorrect"}
                             </p>
                         )}
@@ -251,7 +251,7 @@ export default function EmpanLecture({ patientId }: { patientId: string | null }
                 )}
 
                 {phase === "correct" && (
-                    <p className="text-green-600 dark:text-green-400 font-bold text-lg">
+                    <p className="text-emerald-600 dark:text-green-400 font-bold text-lg">
                         Excellent ! Niveau suivant...
                     </p>
                 )}
