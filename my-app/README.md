@@ -1571,26 +1571,3 @@ ok
   ├────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┤                                                                                              
   │ Vieillissement normal                  │ Mémoire, vitesse, fonctions exécutives                          │
   └────────────────────────────────────────┴─────────────────────────────────────────────────────────────────┘                                                                                              
-      
-
-  Ce que ça implique pour l'architecture de l'appli
-                                                                                                                                                                                                            
-  1. Profil patient
-  - Type d'AVC (ischémique / hémorragique)                                                                                                                                                                  
-  - Localisation lésionnelle (hémisphère gauche → aphasie / droit → héminégligence)                                                                                                                         
-  - Séquelles identifiées                                                          
-  - Niveau de sévérité                                                                                                                                                                                                                                                        2. Modules activés automatiquement selon le profil                                                                                                                                                        
-  - Lésion hémisphère gauche → modules langage en priorité                                                                                                                                                  
-  - Lésion hémisphère droit → modules attention spatiale, héminégligence                                                                                                                                    
-  - Lésion frontale → modules exécutifs                                 
-                                                                                                                                                                                                            
-  3. Progression adaptative                                                                                                                                                                                 
-  - Niveaux de difficulté ajustés selon les performances                                                                                                                                                    
-  - Feedback positif adapté (patients souvent en situation d'échec)                                                                                                                                         
-  - Sessions courtes (fatigabilité post-AVC élevée)                
-                                                                                                                                                                                                            
-  4. Suivi thérapeute
-  - Tableau de bord des performances                                                                                                                                                                        
-  - Export des résultats pour le neurologue / orthophoniste / neuropsychologue
-  - Comparaison des sessions dans le temps                                                                                                                                                                  
-         

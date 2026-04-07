@@ -75,24 +75,43 @@ export type BufferEpisodiqueType = {
 };
 
 export type AdminCentralType = {
-  doubleTache: {
-    title: string;
-    description: string;
-  },
-  nback: {
-    title: string;
-    description: string;
-  },
-  majmemo: {
-    title: string;
-    description: string;
-  },
-  empanlect: {
-    title: string;
-    description: string;
-  },
-  triavecinter: {
-    title: string;
-    description: string;
-  },
+    doubleTache: {
+        title: string;
+        description: string;
+    },
+    nback: {
+        title: string;
+        description: string;
+    },
+    majmemo: {
+        title: string;
+        description: string;
+    },
+    empanlect: {
+        title: string;
+        description: string;
+    },
+    triavecinter: {
+        title: string;
+        description: string;
+    }
+};
+
+export type StrategieCompType = {
+    ancrageCorpo: {
+        title: string; 
+        description: string;
+    },
+    verbaTrajet: {
+        title: string; 
+        description: string;
+    },
+    pointRepSail: {
+        title: string; 
+        description: string;
+    },
+    exploSytem: {
+        title: string; 
+        description: string;
+    }
 };
