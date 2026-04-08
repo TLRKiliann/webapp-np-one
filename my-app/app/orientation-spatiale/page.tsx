@@ -13,12 +13,12 @@ export default function OrientationSpatialePage() {
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/orientation-spatiale/peri-personnel">
+                        <Link href="/orientation-spatiale/orientation-peri-personnel">
                             Orientation dans l'espace péri-personnel                        
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/orientation-spatiale/extra-personnel">
+                        <Link href="/orientation-spatiale/orientation-extra-personnel">
                             Orientation dans l'espace extra-personnel (navigation)
                         </Link>
                     </li>
