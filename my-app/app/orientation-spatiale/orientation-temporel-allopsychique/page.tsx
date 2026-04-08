@@ -1,7 +1,10 @@
+import Link from "next/link";
+import { OrientationTempAllo } from "@/lib/orientation-spatiale";
+
 export default function OrientationTemporelAlloPage() {
     return (
         <div>
-            <h1 className="text-2xl font-bold">...</h1>
+            <h1 className="text-2xl font-bold">Orientation temporelle et allopsychique</h1>
 
             <p></p>
 
@@ -9,26 +12,21 @@ export default function OrientationTemporelAlloPage() {
                 <ul className="list-disc">
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-temporel-allopsychique/1">
-                            {OrientationTempAllo..title}: {OrientationTempAllo..description}
+                            {OrientationTempAllo.orientTempoSpatiale.title}: {OrientationTempAllo.orientTempoSpatiale.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-temporel-allopsychique/2">
-                            {OrientationTempAllo..title}: {OrientationTempAllo..description}
+                            {OrientationTempAllo.reorderEvents.title}: {OrientationTempAllo.reorderEvents.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-temporel-allopsychique/3">
-                            {OrientationTempAllo..title}: {OrientationTempAllo..description}
-                        </Link>
-                    </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/orientation-spatiale/orientation-temporel-allopsychique/4">
-                            {OrientationTempAllo..title}: {OrientationTempAllo..description}
+                            {OrientationTempAllo.calendarInteractif.title}: {OrientationTempAllo.calendarInteractif.description}
                         </Link>
                     </li>
                 </ul>
             </nav>
         </div>
     );
-};
+};                                      

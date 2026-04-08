@@ -43,15 +43,3 @@ export default function OrientationSpatialePage() {
         </div>
     );
 };
-
-//Orientation sur le corps (espace corporel) 
-
-// Orientation dans l'espace péri-personnel
-
-// Orientation dans l'espace extra-personnel (navigation)
-
-// Orientation temporelle et allopsychique
-
-// Rotation et transformation mentale
-
-// Stratégies de compensation                   

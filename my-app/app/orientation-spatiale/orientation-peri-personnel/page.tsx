@@ -1,7 +1,10 @@
+import Link from "next/link";
+import { OrientationPeri } from "@/lib/orientation-spatiale";
+
 export default function OrientationPeriPersonnelPage() {
     return (
         <div>
-            <h1 className="text-2xl font-bold">...</h1>
+            <h1 className="text-2xl font-bold">Orientation dans l'espace péri-personne</h1>
 
             <p></p>
 
@@ -9,22 +12,27 @@ export default function OrientationPeriPersonnelPage() {
                 <ul className="list-disc">
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-peri-personnel/1">
-                            {OrientationPeri.ancrageCorpo.title}: {OrientationPeri.ancrageCorpo.description}
+                            {OrientationPeri.relationTopo.title}: {OrientationPeri.relationTopo.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-peri-personnel/2">
-                            {OrientationPeri.verbaTrajet.title}: {OrientationPeri.verbaTrajet.description}
+                            {OrientationPeri.copyFigureOrient.title}: {OrientationPeri.copyFigureOrient.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-peri-personnel/3">
-                            {OrientationPeri.pointRepSail.title}: {OrientationPeri.pointRepSail.description}
+                            {OrientationPeri.bissectionLignes.title}: {OrientationPeri.bissectionLignes.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/orientation-peri-personnel/4">
-                            {OrientationPeri.exploSytem.title}: {OrientationPeri.exploSytem.description}
+                            {OrientationPeri.barrageCibles.title}: {OrientationPeri.barrageCibles.description}
+                        </Link>
+                    </li>
+                    <li className="text-xl hover:text-emerald-500 mb-2">
+                        <Link href="/orientation-spatiale/orientation-peri-personnel/5">
+                            {OrientationPeri.reperageSurGrille.title}: {OrientationPeri.reperageSurGrille.description}
                         </Link>
                     </li>
                 </ul>

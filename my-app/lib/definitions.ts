@@ -115,3 +115,104 @@ export type StrategieCompType = {
         description: string;
     }
 };
+
+// orientation
+
+export type OrientationCorpoType = {
+    droiteGaucheSoi: {
+        title: string;
+        description: string;
+    },
+    droiteGaucheAutre: {
+        title: string;
+        description: string;
+    },
+    schemaCorp: {
+        title: string;
+        description: string;
+    },
+    imitationPosture: {
+        title: string;
+        description: string;
+    },
+};
+
+export type OrientationPeriType = {
+    relationTopo: {
+        title: string;
+        description: string;
+    },
+    copyFigureOrient: {
+        title: string;
+        description: string;
+    },
+    bissectionLignes: {
+        title: string;
+        description: string;
+    },
+    barrageCibles: {
+        title: string;
+        description: string;
+    },
+    reperageSurGrille: {
+        title: string;
+        description: string;
+    }
+};
+
+export type OrientationExtraType = {
+    planLieuFam: {
+        title: string;
+        description: string;
+    },
+    lectureCarte: {
+        title: string;
+        description: string;
+    },
+    apprenTrajVirtuel: {
+        title: string;
+        description: string;
+    },
+    orientPointRepere: {
+        title: string;
+        description: string;
+    },
+    estimationDistance: {
+        title: string;
+        description: string;
+    }
+};
+
+export type OrientationTempAlloType = {
+    orientTempoSpatiale: {
+        title: string;
+        description: string;
+    },
+    reorderEvents: {
+        title: string;
+        description: string;
+    },
+    calendarInteractif: {
+        title: string;
+        description: string;
+    }
+};
+
+export type RotaTransMentalType = {
+    rotaMentalObj: {
+        title: string;
+        description: string;
+    },
+    perspecSpatiale: {
+        title: string;
+        description: string;
+    },
+    cubeShepard: {
+        title: string;
+        description: string;
+    },
+    depilageSolides: {
+        title: string;
+        description: string;
+    }
+};

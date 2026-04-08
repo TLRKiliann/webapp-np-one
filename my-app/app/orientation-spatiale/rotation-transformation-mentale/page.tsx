@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { RotaTransMental } from "@/lib/orientation-spatiale";
 
 export default function RotationTransMentalePage() {
     return (
         <div>
-            <h1 className="text-2xl font-bold">...</h1>
+            <h1 className="text-2xl font-bold">Rotation et transformation mentale</h1>
 
             <p></p>
 
@@ -11,22 +12,22 @@ export default function RotationTransMentalePage() {
                 <ul className="list-disc">
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/rotation-transformation-mentale/1">
-                            {RotaTransMental..title}: {RotaTransMental..description}
+                            {RotaTransMental.rotaMentalObj.title}: {RotaTransMental.rotaMentalObj.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/rotation-transformation-mentale/2">
-                            {RotaTransMental..title}: {RotaTransMental..description}
+                            {RotaTransMental.perspecSpatiale.title}: {RotaTransMental.perspecSpatiale.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/rotation-transformation-mentale/3">
-                            {RotaTransMental..title}: {RotaTransMental..description}
+                            {RotaTransMental.cubeShepard.title}: {RotaTransMental.cubeShepard.description}
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
                         <Link href="/orientation-spatiale/rotation-transformation-mentale/4">
-                            {RotaTransMental..title}: {RotaTransMental..description}
+                            {RotaTransMental.depilageSolides.title}: {RotaTransMental.depilageSolides.description}
                         </Link>
                     </li>
                 </ul>
