@@ -1,4 +1,4 @@
-import { DetectionCiblesVisu, InhibitionDistract } from "@/lib/attention-selective";
+import { InhibitionDistract } from "@/lib/attention-selective";
 import Link from "next/link";
 
 export default function InhibitionDistracteursPage() {

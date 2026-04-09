@@ -1,4 +1,6 @@
-import { DetectionCiblesVisu, InhibitionDistract } from "@/lib/attention-selective";
+import Truc from "@/app/ui/attention-selective-exo/Truc";
+import { InhibitionDistract } from "@/lib/attention-selective";
+import { getSelectedPatient } from "@/app/actions/patients";
 
 export default async function InhibitionDistracteursExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;

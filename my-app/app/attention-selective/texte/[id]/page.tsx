@@ -1,36 +1,31 @@
 import Truc from "@/app/ui/attention-selective-exo/Truc";
-import { DetectionCiblesVisu } from "@/lib/attention-selective";
+import { AttSelectText } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
 
-export default async function DetectionCiblesVisuellesExo({params}: {params: Promise<{id: string}>}) {
+export default async function AttSelectTextExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
     const selectedPatient = await getSelectedPatient();
     const patientId = selectedPatient?.id ?? null;
 
     const tasks = {
         "1": {
-            title: DetectionCiblesVisu.barrageSimple.title,
-            description: DetectionCiblesVisu.barrageSimple.description,
+            title: AttSelectText.lectureSelect.title,
+            description: AttSelectText.lectureSelect.description,
             component: <Truc patientId={patientId} />
         },
         "2": {
-            title: DetectionCiblesVisu.barrageDouble.title,
-            description: DetectionCiblesVisu.barrageDouble.description,
+            title: AttSelectText.detectionErreurs.title,
+            description: AttSelectText.detectionErreurs.description,
             component: <Truc patientId={patientId} />
         },
         "3": {
-            title: DetectionCiblesVisu.rechVisuSimple.title,
-            description: DetectionCiblesVisu.rechVisuSimple.description,
+            title: AttSelectText.surlignageSelect.title,
+            description: AttSelectText.surlignageSelect.description,
             component: <Truc patientId={patientId} />
         },
         "4": {
-            title: DetectionCiblesVisu.rechVisuConjonct.title,
-            description: DetectionCiblesVisu.rechVisuConjonct.description,
-            component: <Truc patientId={patientId} />
-        },
-        "5": {
-            title: DetectionCiblesVisu.oddOneOut.title,
-            description: DetectionCiblesVisu.oddOneOut.description,
+            title: AttSelectText.lectureAvecDistract.title,
+            description: AttSelectText.lectureAvecDistract.description,
             component: <Truc patientId={patientId} />
         }
     };

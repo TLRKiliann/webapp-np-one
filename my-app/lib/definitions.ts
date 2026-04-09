@@ -266,3 +266,41 @@ export type InhibitionDistractType = {
         description: string;
     }
 };
+
+export type AttSelectAuditiveType = {
+    cocktailParty: {
+        title: string;
+        description: string;
+    },
+    dectectionMotCible: {
+        title: string;
+        description: string;
+    },
+    discriAudiAvecB: {
+        title: string;
+        description: string;
+    },
+    ecouSelectDicho: {
+        title: string;
+        description: string;
+    }
+};
+
+export type AttSelectTextType = {
+    lectureSelect: {
+        title: string;
+        description: string;
+    },
+    detectionErreurs: {
+        title: string;
+        description: string;
+    },
+    surlignageSelect: {
+        title: string;
+        description: string;
+    },
+    lectureAvecDistract: {
+        title: string;
+        description: string;
+    }
+};

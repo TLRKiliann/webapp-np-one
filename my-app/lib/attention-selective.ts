@@ -1,4 +1,4 @@
-import { DetectionCiblesVisuType, InhibitionDistractType } from "./definitions";
+import { AttSelectAuditiveType, AttSelectTextType, DetectionCiblesVisuType, InhibitionDistractType } from "./definitions";
 
 export const DetectionCiblesVisu: DetectionCiblesVisuType = {
     barrageSimple: {
@@ -43,5 +43,43 @@ export const InhibitionDistract: InhibitionDistractType = {
     negativePriming: {
         title: "Negative priming",
         description: "Répondre à une cible qui était distracteur à l'essai précédent"
+    }
+};
+
+export const AttSelectAuditive: AttSelectAuditiveType = {
+    cocktailParty: {
+        title: "Cocktail party",
+        description: "Suivre un message dans un flux de parole parasité"
+    },
+    dectectionMotCible: {
+        title: "Détection de mot cible",
+        description: "Appuyer quand un mot précis est entendu dans un texte oral"
+    },
+    discriAudiAvecB: {
+        title: "Discrimination auditive avec bruit",
+        description: "Identifier un son cible malgré un bruit de fond croissant"
+    },
+    ecouSelectDicho: {
+        title: "Écoute sélective dichotique",
+        description: "Suivre uniquement l'oreille droite ou gauche"
+    }
+};
+
+export const AttSelectText: AttSelectTextType = {
+    lectureSelect: {
+        title: "Lecture sélective",
+        description: "Relever uniquement les mots d'une catégorie dans un texte"
+    },
+    detectionErreurs: {
+        title: "Détection d'erreurs",
+        description: "Repérer les fautes d'orthographe ou incohérences dans un texte"
+    },
+    surlignageSelect: {
+        title: "Surlignage sélectif",
+        description: "Identifier et marquer les informations pertinentes"
+    },
+    lectureAvecDistract: {
+        title: "Lecture avec distracteurs",
+        description: "Lire un texte avec des mots non pertinents intercalés"
     }
 };
