@@ -56,9 +56,15 @@ export default async function ScoresPage() {
 
     return (
         <div className="p-6 max-w-5xl mx-auto">
-            <h1 className="text-2xl font-bold dark:text-white mb-6">
-                Scores
-            </h1>
+            <div className="flex items-center justify-between mb-6">
+                <h1 className="text-2xl font-bold dark:text-white">Scores</h1>
+                <a
+                    href="/scores/graphiques"
+                    className="px-4 py-1.5 rounded-lg text-sm font-medium bg-sky-600 hover:bg-sky-700 text-white transition-colors duration-150"
+                >
+                    Voir les graphiques →
+                </a>
+            </div>
 
             {results.length === 0 ? (
                 <div className="text-center py-16 dark:text-slate-500">
