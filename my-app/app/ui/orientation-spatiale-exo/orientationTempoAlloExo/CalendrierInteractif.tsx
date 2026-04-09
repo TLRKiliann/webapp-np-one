@@ -142,9 +142,6 @@ function buildQuestions(diff: Difficulty): Question[] {
         const d2 = d1 + add;
         if (d2 > days) { i--; continue; }
         const correct = String(d2);
-        const pool = [d2 - 2, d2 - 1, d2 + 1, d2 + 2]
-            .filter(n => n >= 1 && n <= days)
-            .map(String);
         qs.push({
             id: `add-${i}`,
             type: "adddays",
@@ -173,7 +170,7 @@ interface CalProps {
     onDateClick?: (d: number) => void;
 }
 
-function CalendarGrid({ year, month, highlightA, highlightB, targetDate, clickable, feedbackDate, correctDate, onDateClick }: CalProps) {
+function CalendarGrid({ year, month, highlightA, highlightB, targetDate: _targetDate, clickable, feedbackDate, correctDate, onDateClick }: CalProps) {
     const today     = new Date();
     const firstDow  = getFirstDow(year, month);
     const daysInMo  = getDaysInMonth(year, month);

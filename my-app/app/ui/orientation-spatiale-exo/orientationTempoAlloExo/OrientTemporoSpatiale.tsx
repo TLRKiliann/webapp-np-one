@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback } from "react";
 import { saveScore } from "@/app/actions/scores";
 
 type Phase = "idle" | "question" | "feedback" | "finished";

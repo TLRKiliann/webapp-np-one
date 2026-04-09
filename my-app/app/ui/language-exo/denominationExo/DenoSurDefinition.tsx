@@ -174,7 +174,6 @@ export default function DenoSurDefinition({ patientId }: { patientId: string | n
     };
 
     const correctCount = results.filter(r => r.correct).length;
-    const cfg = DIFFICULTY_CONFIG[difficulty];
     const currentItem = items[idx];
     const currentOptions = options[idx] ?? [];
 
