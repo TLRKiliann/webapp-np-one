@@ -23,6 +23,8 @@ export async function saveScore(data: {
         score: data.score,
         niveauDifficulte,
     });
+
+    revalidatePath("/scores");
 }
 
 export async function deleteScore(formData: FormData) {

@@ -19,12 +19,12 @@ export default async function Executives({ params }: { params: Promise<{ id: str
         "2": {
             title: fonctionsExecutivesLib.hanoi.title,
             description: fonctionsExecutivesLib.hanoi.description,
-            component: <SimpleHanoiFexec />
+            component: <SimpleHanoiFexec patientId={patientId} />
         },
         "3": {
             title: fonctionsExecutivesLib.tricartes.title,
             description: fonctionsExecutivesLib.tricartes.description,
-            component: <TriCartesFexec />
+            component: <TriCartesFexec patientId={patientId} />
         }
     };
 
