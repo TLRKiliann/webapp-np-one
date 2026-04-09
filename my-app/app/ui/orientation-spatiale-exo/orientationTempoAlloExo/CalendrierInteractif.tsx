@@ -40,10 +40,6 @@ function getDaysInMonth(y: number, m: number) { return new Date(y, m + 1, 0).get
 // Returns 0=Lun … 6=Dim
 function getFirstDow(y: number, m: number)   { return (new Date(y, m, 1).getDay() + 6) % 7; }
 function getDow(y: number, m: number, d: number) { return (new Date(y, m, d).getDay() + 6) % 7; }
-function daysBetween(y: number, m: number, d1: number, d2: number) {
-    return Math.abs(d2 - d1);
-}
-
 function shuffle<T>(arr: T[]): T[] {
     const a = [...arr];
     for (let i = a.length - 1; i > 0; i--) {
@@ -286,7 +282,8 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
         setResults(updated);
         setPhase("feedback");
 
-        if (answer.match(/^\d+$/)) setClickedDate(Number(answer));
+        const isClickType = question.type === "locate" || question.type === "adddays";
+        if (isClickType) setClickedDate(Number(answer));
         else setSelected(answer);
 
         if (isLastQ) {

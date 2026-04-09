@@ -90,6 +90,21 @@ export default function EmpanEndroit({ patientId }: { patientId: string | null }
         setAnswer(prev => prev.slice(0, -1));
     }, []);
 
+    const finishGame = useCallback((allResults: RoundResult[], maxSpanReached: number) => {
+        setPhase("finished");
+        if (patientId) {
+            const correctCount = allResults.filter(r => r.correct).length;
+            const score = Math.round((correctCount / allResults.length) * 100);
+            saveScore({
+                patientId,
+                exercice: "Empan de chiffres endroit",
+                domaine: "memo-travail",
+                score,
+                empan: maxSpanReached,
+            });
+        }
+    }, [patientId]);
+
     // Validation de la réponse
     const handleValidate = useCallback(() => {
         const correct = answer.length === sequence.length &&
@@ -122,21 +137,6 @@ export default function EmpanEndroit({ patientId }: { patientId: string | null }
             }
         }
     }, [answer, sequence, span, errorsAtSpan, results, startRound, finishGame]);
-
-    const finishGame = useCallback((allResults: RoundResult[], maxSpanReached: number) => {
-        setPhase("finished");
-        if (patientId) {
-            const correctCount = allResults.filter(r => r.correct).length;
-            const score = Math.round((correctCount / allResults.length) * 100);
-            saveScore({
-                patientId,
-                exercice: "Empan de chiffres endroit",
-                domaine: "memo-travail",
-                score,
-                empan: maxSpanReached,
-            });
-        }
-    }, [patientId]);
 
     // Nettoyage des timeouts
     useEffect(() => {
