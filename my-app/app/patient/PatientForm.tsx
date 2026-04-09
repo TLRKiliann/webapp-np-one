@@ -22,7 +22,7 @@ export default function PatientForm() {
         <div>
             <button
                 onClick={() => setOpen(!open)}
-                className="px-5 py-2 bg-green-600 hover:bg-green-700 dark:bg-indigo-600 dark:hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
+                className="px-5 py-2 bg-teal-600 hover:bg-teal-700 dark:bg-indigo-600 dark:hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
             >
                 {open ? "Annuler" : "+ Nouveau patient"}
             </button>
@@ -62,7 +62,7 @@ export default function PatientForm() {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="mt-5 px-6 py-2 bg-green-600 hover:bg-green-700 dark:bg-indigo-600 dark:hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 disabled:opacity-50"
+                        className="mt-5 px-6 py-2 bg-teal-600 hover:bg-teal-700 dark:bg-indigo-600 dark:hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 disabled:opacity-50"
                     >
                         {loading ? "Enregistrement..." : "Enregistrer"}
                     </button>
