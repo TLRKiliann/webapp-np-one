@@ -196,13 +196,13 @@ function CalendarGrid({ year, month, highlightA, highlightB, targetDate, clickab
         }
 
         // Highlights (interval / adddays question)
-        if (d === highlightA && highlightB === undefined) return base + "bg-sky-100 dark:bg-sky-900/40 border-sky-400 text-sky-700 dark:text-sky-300 ring-2 ring-sky-400";
+        if (d === highlightA && highlightB === undefined) return base + "bg-primary-100 dark:bg-primary-900/40 border-primary-400 text-primary-700 dark:text-primary-300 ring-2 ring-primary-400";
         if (d === highlightA || d === highlightB) return base + "bg-amber-100 dark:bg-amber-900/30 border-amber-400 text-amber-700 dark:text-amber-300 font-bold";
 
         // Today
         if (isToday(d)) return base + "bg-indigo-100 dark:bg-indigo-900/40 border-indigo-400 text-indigo-700 dark:text-indigo-300 font-bold";
 
-        if (clickable) return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:border-sky-300 cursor-pointer";
+        if (clickable) return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:border-primary-300 cursor-pointer";
         return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-400";
     };
 
@@ -336,7 +336,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
 
     const choiceClass = (choice: string): string => {
         const base = "flex-1 px-3 py-2 rounded-lg text-sm font-medium border transition-colors duration-150 ";
-        if (phase !== "feedback") return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:border-sky-400 cursor-pointer";
+        if (phase !== "feedback") return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:border-primary-400 cursor-pointer";
         if (choice === question?.correct) return base + "bg-green-100 dark:bg-green-900/30 border-green-400 text-green-700 dark:text-green-200 cursor-default";
         if (choice === selected) return base + "bg-red-100 dark:bg-red-900/30 border-red-400 text-red-600 dark:text-red-300 cursor-default";
         return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-500 text-slate-400 dark:text-slate-500 cursor-default opacity-50";
@@ -365,7 +365,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
                                 onClick={() => setDifficulty(d)}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors duration-150 capitalize ${
                                     difficulty === d
-                                        ? "bg-sky-600 text-white border-sky-600"
+                                        ? "bg-primary-600 text-white border-primary-600"
                                         : "bg-white dark:bg-slate-700 border-slate-300 dark:border-slate-500 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-600"
                                 }`}
                             >
@@ -375,7 +375,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
                     </div>
                     <button
                         onClick={() => startGame(difficulty)}
-                        className="px-8 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium transition-colors duration-200"
+                        className="px-8 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors duration-200"
                     >
                         Démarrer
                     </button>
@@ -393,7 +393,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
                                 <div key={i} className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${
                                     i < qIdx
                                         ? results[i]?.correct ? "bg-green-400" : "bg-red-400"
-                                        : i === qIdx ? "bg-sky-400" : "bg-slate-200 dark:bg-slate-700"
+                                        : i === qIdx ? "bg-primary-400" : "bg-slate-200 dark:bg-slate-700"
                                 }`} />
                             ))}
                         </div>
@@ -406,7 +406,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
                             ? isCorrect
                                 ? "bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300"
                                 : "bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300"
-                            : "bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300"
+                            : "bg-primary-50 dark:bg-primary-900/20 text-primary-700 dark:text-primary-300"
                     }`}>
                         {question.text}
                     </div>
@@ -451,7 +451,7 @@ export default function CalendrierInteractif({ patientId }: { patientId: string 
                             </p>
                             <button
                                 onClick={handleNext}
-                                className="px-5 py-1.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 shrink-0"
+                                className="px-5 py-1.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 shrink-0"
                             >
                                 {isLastQ ? "Résultats" : "Suivante →"}
                             </button>

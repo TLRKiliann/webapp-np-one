@@ -183,7 +183,7 @@ export default function OrientTemporoSpatiale({ patientId }: { patientId: string
     const choiceStyle = (choice: string): string => {
         const base = "w-full px-4 py-3 rounded-xl text-sm font-medium border text-left transition-colors duration-150 ";
         if (phase !== "feedback") {
-            return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:border-sky-300 dark:hover:border-sky-600 cursor-pointer";
+            return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:border-primary-300 dark:hover:border-primary-600 cursor-pointer";
         }
         if (choice === question?.correct) {
             return base + "bg-green-100 dark:bg-green-900/30 border-green-400 dark:border-green-500 text-green-800 dark:text-green-200 cursor-default";
@@ -210,7 +210,7 @@ export default function OrientTemporoSpatiale({ patientId }: { patientId: string
                     </p>
                     <button
                         onClick={startGame}
-                        className="px-8 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium transition-colors duration-200"
+                        className="px-8 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors duration-200"
                     >
                         Démarrer
                     </button>
@@ -233,7 +233,7 @@ export default function OrientTemporoSpatiale({ patientId }: { patientId: string
                                                 ? "bg-green-400 dark:bg-green-500"
                                                 : "bg-red-400 dark:bg-red-500"
                                             : i === qIdx
-                                            ? "bg-sky-400 dark:bg-sky-500"
+                                            ? "bg-primary-400 dark:bg-primary-500"
                                             : "bg-slate-200 dark:bg-slate-700"
                                     }`}
                                 />
@@ -283,7 +283,7 @@ export default function OrientTemporoSpatiale({ patientId }: { patientId: string
                             </p>
                             <button
                                 onClick={handleNext}
-                                className="px-6 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
+                                className="px-6 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
                             >
                                 {isLastQ ? "Voir les résultats" : "Question suivante →"}
                             </button>

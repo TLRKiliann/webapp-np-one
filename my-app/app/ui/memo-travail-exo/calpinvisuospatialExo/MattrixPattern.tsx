@@ -253,7 +253,7 @@ export default function MattrixPattern({ patientId }: { patientId: string | null
         switch (phase) {
             case "idle":     return { text: "Choisissez un niveau et démarrez.",            cls: "text-slate-500 dark:text-slate-400" };
             case "showing":  return { text: "Mémorisez le motif !",                          cls: "text-indigo-600 dark:text-indigo-300 font-semibold" };
-            case "recall":   return { text: `Reproduisez le motif — ${selected.size} / ${pattern.length} cellule${pattern.length > 1 ? "s" : ""} sélectionnée${selected.size > 1 ? "s" : ""}`, cls: "text-sky-600 dark:text-sky-300" };
+            case "recall":   return { text: `Reproduisez le motif — ${selected.size} / ${pattern.length} cellule${pattern.length > 1 ? "s" : ""} sélectionnée${selected.size > 1 ? "s" : ""}`, cls: "text-primary-600 dark:text-primary-300" };
             case "correct":  return { text: "Correct ! Niveau suivant…",                    cls: "text-green-600 dark:text-green-400 font-semibold" };
             case "wrong":    return { text: "Erreur ! Les cases correctes sont en vert.",    cls: "text-red-600 dark:text-red-400 font-semibold" };
             case "finished": return { text: "Exercice terminé !",                            cls: "text-slate-700 dark:text-slate-200 font-bold" };

@@ -72,7 +72,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full text-base font-bold text-white bg-green-600 hover:bg-green-700 active:bg-green-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 rounded-lg py-2 mt-2 transition disabled:opacity-50"
+            className="w-full text-base font-bold text-white bg-teal-600 hover:bg-teal-700 active:bg-teal-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 rounded-lg py-2 mt-2 transition disabled:opacity-50"
           >
             {loading ? "Connexion..." : "Se connecter"}
           </button>

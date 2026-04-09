@@ -1,4 +1,4 @@
-export default function DenoAmorcage() {
+export default function DenoAmorcage({ patientId }: { patientId: string | null }) {
     return (
         <div>
 

@@ -60,7 +60,7 @@ export default async function ScoresPage() {
                 <h1 className="text-2xl font-bold dark:text-white">Scores</h1>
                 <a
                     href="/scores/graphiques"
-                    className="px-4 py-1.5 rounded-lg text-sm font-medium bg-sky-600 hover:bg-sky-700 text-white transition-colors duration-150"
+                    className="px-4 py-1.5 rounded-lg text-sm font-medium bg-primary-600 hover:bg-primary-700 text-white transition-colors duration-150"
                 >
                     Voir les graphiques →
                 </a>

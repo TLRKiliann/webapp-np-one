@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
 
-
 export default function Home() {
 
   const router = useRouter();
@@ -54,7 +53,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold">Intro</h2>
         </div>
 
-        <div className="bg-emerald-50 dark:bg-indigo-800 rounded-lg mx-4 p-4">
+        <div className="bg-teal-50 dark:bg-indigo-800 border border-teal-200 dark:border-indigo-500 rounded-lg mx-10 p-8">
           Bienvenue sur la page d'accueil de Neuro-Psy-Med.
           <br />
           Aucune données personnelles ne sera transmises à une organisation tierse ou à toute autre
@@ -69,10 +68,10 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-emerald-50 dark:bg-indigo-800 rounded-lg m-4 p-4">
+        <div className="bg-teal-50 dark:bg-indigo-800 border border-teal-200 dark:border-indigo-400 rounded-lg mx-10 p-10">
           <p>1) Quel degré de fatigue ressentez-vous aujourd'hui ?</p>
 
-          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="fatigue1">
               <input 
@@ -118,7 +117,7 @@ export default function Home() {
 
           <p>2) Avez-vous des douleurs actuellement ?</p>
 
-          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-slate-200 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="dlroui">
               <input 
@@ -150,7 +149,7 @@ export default function Home() {
 
           <p>3) Si oui, pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
 
-          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-emerald-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
+          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
 
             <label htmlFor="dlr1">
               <input type="radio" id="dlr1" name="dlr1" 
@@ -239,7 +238,7 @@ export default function Home() {
               <button
                 onClick={handleCommencer}
                 disabled={!optionFatigue || !optionDlr}
-                className="text-base font-bold text-white bg-green-600 hover:bg-green-700 active:bg-green-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-6 py-4"
+                className="text-base text-white bg-teal-600 hover:bg-teal-700 active:bg-teal-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2"
               >
                 Commencer l'entraînement
               </button>

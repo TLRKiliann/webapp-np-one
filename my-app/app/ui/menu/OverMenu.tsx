@@ -7,19 +7,19 @@ export default async function OverMenu() {
     const session = await auth();
 
     return (
-        <nav className="bg-green-800 dark:bg-indigo-950 border-b border-green-800 dark:border-indigo-800">
-            <ul className="list-none flex flex-row items-center text-sm text-emerald-50 dark:text-indigo-100 font-medium tracking-wide px-6 py-3">
+        <nav className="bg-teal-800 dark:bg-slate-950 border-b border-teal-900 dark:border-slate-800">
+            <ul className="list-none flex flex-row items-center text-sm text-teal-50 dark:text-slate-200 font-medium tracking-wide px-6 py-3">
                 <li className="flex flex-1 justify-around items-center">
-                    <Link href="/" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                         <MdHome size={20} />
                     </Link>
-                    <Link href="/patient" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/patient" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                         Patient
                     </Link>
-                    <Link href="/scores" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
-                        Score
+                    <Link href="/scores" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
+                        Scores
                     </Link>
-                    <Link href="/documentation" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="/documentation" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                         Documentation
                     </Link>
                 </li>
@@ -31,17 +31,17 @@ export default async function OverMenu() {
                         }}>
                             <button
                                 type="submit"
-                                className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200 cursor-pointer"
+                                className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200 cursor-pointer"
                             >
                                 Logout
                             </button>
                         </form>
                     ) : (
-                        <Link href="/login" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
+                        <Link href="/login" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                             Login
                         </Link>
                     )}
-                    <Link href="" className="hover:text-emerald-500 dark:hover:text-violet-300 transition-colors duration-200">
+                    <Link href="" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                         EN/FR
                     </Link>
                     <DarkModeToggle />

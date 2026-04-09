@@ -291,7 +291,7 @@ export default function ScoresCharts({ patients }: { patients: PatientData[] }) 
                 <h1 className="text-2xl font-bold dark:text-white">Graphiques — Scores</h1>
                 <a
                     href="/scores"
-                    className="text-sm text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300 underline underline-offset-2"
+                    className="text-sm text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 underline underline-offset-2"
                 >
                     ← Retour au tableau
                 </a>
@@ -311,7 +311,7 @@ export default function ScoresCharts({ patients }: { patients: PatientData[] }) 
                                 onClick={() => setSelectedId(p.patientId)}
                                 className={`px-4 py-1.5 rounded-full text-sm font-medium border transition-colors duration-150 ${
                                     selectedId === p.patientId
-                                        ? "bg-sky-600 text-white border-sky-600"
+                                        ? "bg-primary-600 text-white border-primary-600"
                                         : "bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700"
                                 }`}
                             >

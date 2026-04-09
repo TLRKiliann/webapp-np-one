@@ -122,7 +122,7 @@ export default function ReperageSurGrille({ patientId }: { patientId: string | n
 
     const cellBase = "flex items-center justify-center rounded-md text-sm font-medium border transition-colors duration-150 cursor-pointer select-none aspect-square";
     const cellStates: Record<string, string> = {
-        default: "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:border-sky-300 dark:hover:border-sky-600",
+        default: "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:border-primary-300 dark:hover:border-primary-600",
         correct: "bg-green-100 dark:bg-green-900/40 border-green-400 dark:border-green-500 text-green-700 dark:text-green-300",
         wrong:   "bg-red-100 dark:bg-red-900/40 border-red-400 dark:border-red-500 text-red-700 dark:text-red-300",
     };
@@ -134,7 +134,7 @@ export default function ReperageSurGrille({ patientId }: { patientId: string | n
             {phase === "idle" && (
                 <div className="text-center space-y-6 max-w-md">
                     <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-                        Une <strong>coordonnée</strong> s'affiche (ex. : <span className="font-mono font-bold text-sky-600 dark:text-sky-400">C3</span>).<br />
+                        Une <strong>coordonnée</strong> s'affiche (ex. : <span className="font-mono font-bold text-primary-600 dark:text-primary-400">C3</span>).<br />
                         Cliquez sur la case correspondante dans la grille.<br />
                         Les colonnes sont des <strong>lettres</strong>, les lignes des <strong>chiffres</strong>.
                     </p>
@@ -145,7 +145,7 @@ export default function ReperageSurGrille({ patientId }: { patientId: string | n
                                 onClick={() => setDifficulty(d)}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors duration-150 capitalize ${
                                     difficulty === d
-                                        ? "bg-sky-600 text-white border-sky-600"
+                                        ? "bg-primary-600 text-white border-primary-600"
                                         : "bg-white dark:bg-slate-700 border-slate-300 dark:border-slate-500 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-600"
                                 }`}
                             >
@@ -158,7 +158,7 @@ export default function ReperageSurGrille({ patientId }: { patientId: string | n
                     </p>
                     <button
                         onClick={() => startGame(difficulty)}
-                        className="px-8 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium transition-colors duration-200"
+                        className="px-8 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors duration-200"
                     >
                         Démarrer
                     </button>
@@ -183,7 +183,7 @@ export default function ReperageSurGrille({ patientId }: { patientId: string | n
                                     ? lastCorrect
                                         ? "text-green-500"
                                         : "text-red-500"
-                                    : "text-sky-600 dark:text-sky-400"
+                                    : "text-primary-600 dark:text-primary-400"
                             }`}>
                                 {target}
                             </span>

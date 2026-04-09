@@ -90,7 +90,7 @@ function SeriesDisplay({ series, answered }: { series: string[]; answered: boole
                     {word === "___" ? (
                         <span className={`inline-block min-w-[3.5rem] border-b-2 text-center ${
                             answered
-                                ? "border-sky-400 text-sky-600 dark:text-sky-300"
+                                ? "border-primary-400 text-primary-600 dark:text-primary-300"
                                 : "border-slate-400 dark:border-slate-500 text-transparent"
                         }`}>
                             {"___"}
@@ -179,7 +179,7 @@ export default function AssociationSemantic({ patientId }: { patientId: string |
     const choiceStyle = (choice: string): string => {
         const base = "w-full px-4 py-2.5 rounded-xl text-sm font-medium border text-left transition-colors duration-150 ";
         if (phase !== "feedback") {
-            return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:border-sky-300 cursor-pointer";
+            return base + "bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:border-primary-300 cursor-pointer";
         }
         if (choice === question?.correct) {
             return base + "bg-green-100 dark:bg-green-900/30 border-green-400 text-green-800 dark:text-green-200 cursor-default";
@@ -214,7 +214,7 @@ export default function AssociationSemantic({ patientId }: { patientId: string |
                                 onClick={() => setDifficulty(d)}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors duration-150 capitalize ${
                                     difficulty === d
-                                        ? "bg-sky-600 text-white border-sky-600"
+                                        ? "bg-primary-600 text-white border-primary-600"
                                         : "bg-white dark:bg-slate-700 border-slate-300 dark:border-slate-500 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-600"
                                 }`}
                             >
@@ -225,7 +225,7 @@ export default function AssociationSemantic({ patientId }: { patientId: string |
 
                     <button
                         onClick={() => startGame(difficulty)}
-                        className="px-8 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium transition-colors duration-200"
+                        className="px-8 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors duration-200"
                     >
                         Démarrer
                     </button>
@@ -243,7 +243,7 @@ export default function AssociationSemantic({ patientId }: { patientId: string |
                                 <div key={i} className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${
                                     i < qIdx
                                         ? results[i]?.correct ? "bg-green-400" : "bg-red-400"
-                                        : i === qIdx ? "bg-sky-400" : "bg-slate-200 dark:bg-slate-700"
+                                        : i === qIdx ? "bg-primary-400" : "bg-slate-200 dark:bg-slate-700"
                                 }`} />
                             ))}
                         </div>
@@ -291,7 +291,7 @@ export default function AssociationSemantic({ patientId }: { patientId: string |
                             </p>
                             <button
                                 onClick={handleNext}
-                                className="px-5 py-1.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 shrink-0"
+                                className="px-5 py-1.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 shrink-0"
                             >
                                 {isLastQ ? "Résultats" : "Suivante →"}
                             </button>
