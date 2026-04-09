@@ -116,7 +116,7 @@ export default function EmpanLecture({ patientId }: { patientId: string | null }
             if (newErrors >= 3) {
                 setPhase("finished");
                 if (patientId) {
-                    saveScore({ patientId, exercice: "Empan de lecture", domaine: "admin-central", score, empan: record });
+                    saveScore({ patientId, exercice: "Empan de lecture", domaine: "memo-travail", score, empan: record });
                 }
             } else {
                 const newSpan = Math.max(2, span - 1);

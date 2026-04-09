@@ -104,7 +104,7 @@ export default function RappelDesScenes({ patientId }: { patientId: string | nul
                     saveScore({
                         patientId,
                         exercice: "Rappel de scènes",
-                        domaine: "buffer-episodique",
+                        domaine: "memo-travail",
                         score: newTotal,
                         empan: newRecord,
                     });

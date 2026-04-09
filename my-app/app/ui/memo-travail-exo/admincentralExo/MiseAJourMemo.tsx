@@ -85,7 +85,7 @@ export default function MiseAJourMemo({ patientId }: { patientId: string | null 
                     saveScore({
                         patientId,
                         exercice: "Mise à jour en mémoire",
-                        domaine: "admin-central",
+                        domaine: "memo-travail",
                         score,
                         empan: record,
                     });

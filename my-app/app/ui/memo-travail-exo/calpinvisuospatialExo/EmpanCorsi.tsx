@@ -93,7 +93,7 @@ export default function EmpanCorsi({ patientId }: { patientId: string | null }) 
                 if (newErrors >= 3) {
                     setPhase("finished");
                     if (patientId) {
-                        saveScore({ patientId, exercice: "Empan de Corsi", domaine: "calepin-visuo-spatial", score, empan: record });
+                        saveScore({ patientId, exercice: "Empan de Corsi", domaine: "memo-travail", score, empan: record });
                     }
                 } else {
                     const newSpan = Math.max(2, span - 1);

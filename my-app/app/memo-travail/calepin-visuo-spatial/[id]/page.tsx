@@ -36,7 +36,7 @@ export default async function CalpinVisuoSpatialExo({ params }: { params: Promis
         "5": {
             title: calpinvisuospatial.matrixPattern.title,
             description: calpinvisuospatial.matrixPattern.description,
-            component: <MattrixPattern />
+            component: <MattrixPattern patientId={patientId} />
         }
     };
 

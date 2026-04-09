@@ -119,7 +119,7 @@ export default function AssociationPairesExo({ patientId }: { patientId: string 
                 saveScore({
                     patientId,
                     exercice: "Association de paires",
-                    domaine: "buffer-episodique",
+                    domaine: "memo-travail",
                     score: totalScoreRef.current,
                     empan: DIFFICULTY_COUNTS[difficultyRef.current],
                 });
