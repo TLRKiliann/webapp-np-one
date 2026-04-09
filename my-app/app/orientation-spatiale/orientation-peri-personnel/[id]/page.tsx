@@ -15,7 +15,7 @@ export default async function OrientationPeriPersonnelExo({ params }: { params: 
     const tasks = {
         "1": {
             title: OrientationPeri.relationTopo.title,
-            description: OrientationPeri.relationTopo.title,
+            description: OrientationPeri.relationTopo.description,
             component: <RelationsTopologiques patientId={patientId} />
         },
         "2": {

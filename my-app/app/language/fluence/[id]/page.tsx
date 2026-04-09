@@ -34,7 +34,7 @@ export default async function FluenceExo({params}: {params : Promise<{ id: strin
     };
 
     return (
-        <div className="h-[90vh] p-4">
+        <div className="h-[90vh]">
             <h1 className="text-2xl font-bold">{task.title}</h1>
 
             <p className="mt-4 mb-6 ml-4">{task.description}</p>

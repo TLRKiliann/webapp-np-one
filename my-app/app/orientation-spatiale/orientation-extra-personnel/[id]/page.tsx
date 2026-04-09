@@ -15,7 +15,7 @@ export default async function OrientationExtraPersonnelExo({ params }: { params:
     const tasks = {
         "1": {
             title: OrientationExtra.planLieuFam.title,
-            description: OrientationExtra.planLieuFam.title,
+            description: OrientationExtra.planLieuFam.description,
             component: <PlanLieuxFamiliers patientId={patientId} />
         },
         "2": {

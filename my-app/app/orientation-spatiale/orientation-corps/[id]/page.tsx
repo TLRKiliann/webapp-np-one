@@ -14,7 +14,7 @@ export default async function OrientationCorpsExo({ params }: { params: Promise<
     const tasks = {
         "1": {
             title: OrientationCorpo.droiteGaucheSoi.title,
-            description: OrientationCorpo.droiteGaucheSoi.title,
+            description: OrientationCorpo.droiteGaucheSoi.description,
             component: <DroiteGaucheSoi patientId={patientId} />
         },
         "2": {
