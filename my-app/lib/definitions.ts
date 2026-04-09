@@ -13,6 +13,8 @@ export type fonctionsExecutivesLibType = {
     }
 };
 
+// Memo-travail
+
 export type BouclephonologiqueTypes = {
     empanEndroit: {
         title: string; 
@@ -212,6 +214,54 @@ export type RotaTransMentalType = {
         description: string;
     },
     depilageSolides: {
+        title: string;
+        description: string;
+    }
+};
+
+// Attention-selective
+
+export type DetectionCiblesVisuType = {
+    barrageSimple: {
+        title: string;
+        description: string;
+    },
+    barrageDouble: {
+        title: string;
+        description: string;
+    },
+    rechVisuSimple: {
+        title: string;
+        description: string;
+    },
+    rechVisuConjonct: {
+        title: string;
+        description: string;
+    },
+    oddOneOut: {
+        title: string;
+        description: string;
+    }
+};
+
+export type InhibitionDistractType = {
+    stroopCouleurMot: {
+        title: string;
+        description: string;
+    },
+    stroopSpatial: {
+        title: string;
+        description: string;
+    },
+    flankerTask: {
+        title: string;
+        description: string;
+    },
+    simonTask: {
+        title: string;
+        description: string;
+    },
+    negativePriming: {
         title: string;
         description: string;
     }

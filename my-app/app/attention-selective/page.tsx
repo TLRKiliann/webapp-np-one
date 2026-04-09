@@ -6,26 +6,34 @@ export default function AttentionSelectivePage() {
 
             <h1 className="text-2xl font-bold">Attention sélective</h1>
 
-            {/* <nav className="mt-8 ml-8">
+            <p>
+                ⏺ Les exercices de remédiation de l'attention sélective ciblent la 
+                capacité à focaliser sur un stimulus pertinent en inhibant les distracteurs.    
+            </p>                                                         
+
+            <nav className="mt-8 ml-8">
                 <ul className="list-disc">
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/language/fluence/1">
-                            Fluence sémantique: Execrice 1
+                        <Link href="/attention-selective/detection-cibles-visuelles">
+                            Détection de cibles visuelles
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/language/fluence/2">
-                            Fluence littérale: Execrice 2
+                        <Link href="/attention-selective/inhibition-distracteurs">
+                            Inhibition des distracteurs
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/language/fluence/3">
-                            Associations sémantiques: Execrice 3
+                        <Link href="/attention-selective/">
+                        </Link>
+                    </li>
+                    <li className="text-xl hover:text-emerald-500 mb-2">
+                        <Link href="/attention-selective/">
                         </Link>
                     </li>
                 </ul>
-            </nav> */}
+            </nav>
 
         </div>
-    )
-}
+    );
+};
