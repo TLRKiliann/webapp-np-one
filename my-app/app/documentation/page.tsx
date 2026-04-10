@@ -65,13 +65,47 @@ export default function DocumentationPage() {
                         <li>
                             Sessions courtes (fatigabilité post-AVC élevée)
                         </li>
+                        <li>
+                            Fréquence recommandée : 4–6 sessions courtes (15–30 min) par semaine ; éviter la fatigue cognitive.
+                        </li>
+                        <li>
+                            Surveiller la fatigue, l’humeur et la douleur ; arrêter si signes d’épuisement.
+                        </li>
+                        <li>
+                            Adapter aux déficits moteurs, visuels ou aphasiques (utiliser supports visuels, réponses non verbales).
+                        </li>
+                        <li>
+                            Travailler idéalement avec un neuropsychologue ou orthophoniste ; impliquer la famille pour la généralisation.
+                        </li>
                     </ul>
                 </nav>
             </div>
 
+            <div className="m-4">
+                <h3 className="text-xl font-bold">4. Sécurité et précautions</h3>
+            </div>
+
+            <div className="ml-12">
+                <nav>
+                    <ul className="list-disc text-lg">
+                        <li>
+                            Fréquence recommandée : 4–6 sessions courtes (15–30 min) par semaine ; éviter la fatigue cognitive.
+                        </li>
+                        <li>
+                            Surveiller la fatigue, l’humeur et la douleur ; arrêter si signes d’épuisement.
+                        </li>
+                        <li>
+                            Adapter aux déficits moteurs, visuels ou aphasiques (utiliser supports visuels, réponses non verbales).
+                        </li>
+                        <li>
+                            Travailler idéalement avec un neuropsychologue ou orthophoniste ; impliquer la famille pour la généralisation.
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
             <div className="m-4">
-                <h3 className="text-xl font-bold">4. Suivi thérapeute</h3>
+                <h3 className="text-xl font-bold">5. Suivi pour le thérapeute</h3>
             </div>
 
             <div className="ml-12">

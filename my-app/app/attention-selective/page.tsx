@@ -6,8 +6,8 @@ export default function AttentionSelectivePage() {
 
             <h1 className="text-2xl font-bold">Attention sélective</h1>
 
-            <p>
-                ⏺ Les exercices de remédiation de l'attention sélective ciblent la 
+            <p className="mt-8 ml-4">
+                Les exercices de remédiation de l'attention sélective ciblent la 
                 capacité à focaliser sur un stimulus pertinent en inhibant les distracteurs.    
             </p>                                                         
 

@@ -43,40 +43,51 @@ Dark
   └────────────────┴─────────────────────┴─────────────────────────────────┘
 
 
-
 ⏺ Voici les atteintes cérébrales correspondant à chaque route :                 
                                                                                 
   ---                                                                           
-  /attention-selective                                                          
+
+- /attention-selective                                                          
+
   Cortex préfrontal dorsolatéral, cortex pariétal postérieur (surtout droit),   
   lobe frontal.                                                              
   AVC touchés : artère cérébrale moyenne, territoire pariétal droit.            
                   
   ---                                                                           
-  /fonctions-executives
+
+- /fonctions-executives
+
   Cortex préfrontal (dorsolatéral, orbitofrontal, médian), ganglions de la base,
    connexions fronto-sous-corticales.
   AVC touchés : artère cérébrale antérieure, cérébrale moyenne frontale.        
    
   ---                                                                           
-  /memo-travail   
+
+- /memo-travail   
+
   Cortex préfrontal dorsolatéral, cortex pariétal inférieur, boucle phonologique
    (aire de Broca + aire de Wernicke).                                          
   AVC touchés : territoire sylvien gauche principalement.                       
    
   ---                                                                           
-  /memo-verbale   
+  
+- /memo-verbale   
+  
   Hippocampe (surtout gauche), lobe temporal médian gauche, aire de Wernicke.   
   AVC touchés : artère cérébrale postérieure gauche, territoire temporal gauche.
                                                                                 MT-86 BDAE
   ---                                                                           
-  /memo-visio-space                                                             
+  
+- /memo-visio-space                                                             
+  
   Hippocampe droit, cortex pariéto-occipital droit, voie ventrale et dorsale    
   visuelles.                                                                
   AVC touchés : artère cérébrale postérieure droite, territoire pariétal droit. 
    
   ---                                                                           
-  /vitesse-traitement
+  
+- /vitesse-traitement
+
   Substance blanche (faisceaux de connexion), thalamus, ganglions de la base,   
   cervelet.                                                                  
   AVC touchés : lacunes sous-corticales, AVC profonds (capsule interne,         
@@ -91,14 +102,17 @@ Dark
   - /praxies — difficultés gestuelles (apraxie), fréquent post-AVC              
   - /orientation-spatiale — négligence hémispatiale, fréquente post-AVC droit   
 
-⏺ /attention-soutenue    
-  Cortex préfrontal droit, cortex cingulaire antérieur, formation réticulaire
-  (tronc cérébral), locus coeruleus.                                            
-  AVC touchés : territoire frontal droit, AVC du tronc cérébral, territoire
-  cingulaire.                                                                   
+  - /attention-soutenue    
+  
+    Cortex préfrontal droit, cortex cingulaire antérieur, formation réticulaire
+    (tronc cérébral), locus coeruleus.                                            
+    AVC touchés : territoire frontal droit, AVC du tronc cérébral, territoire
+    cingulaire.                                                                   
                   
   ---                                                                           
-  /attention-divisee
+
+- /attention-divisee
+  
   Cortex préfrontal bilatéral, cortex pariétal supérieur, jonction
   temporo-pariétale, cortex cingulaire antérieur.                 
   AVC touchés : lésions frontales bilatérales, territoire sylvien bilatéral.    
@@ -110,8 +124,10 @@ Dark
   AVC touchés : artère cérébrale moyenne gauche — le plus fréquent tous AVC     
   confondus.      
                                                                                 
-  ---             
-  /aphasie (si route dédiée)                                                    
+  ---
+
+- /aphasie (si route dédiée)                                                    
+  
   Idem langage mais avec atteintes plus étendues du réseau périsylvien gauche.  
   Types selon la lésion :                                                     
   - Broca → frontale gauche (non-fluente)                                       
@@ -119,129 +135,21 @@ Dark
   - Global → tout le territoire sylvien gauche                                  
                                                                                 
   ---                                                                           
-  /praxies                                                                      
+  
+- /praxies                                                                      
+  
   Cortex pariétal inférieur gauche (gyrus supramarginal), cortex prémoteur,
   corps calleux.                                                           
   AVC touchés : territoire pariétal gauche, AVC calleux (apraxie bimanuelle).   
    
   ---                                                                           
-  /orientation-spatiale
+
+- /orientation-spatiale
+
   Cortex pariétal postérieur droit, jonction temporo-pariétale droite, cortex   
   frontal droit.                                                             
   AVC touchés : artère cérébrale moyenne droite — produit la négligence         
   hémispatiale gauche, signe classique post-AVC droit.
-        
-
-  /langage
-      /fluence                                                                  
-      /denomination                                                             
-      /comprehension
-      /repetition                                                               
-      /lecture    
-      /ecriture
-
-
-⏺ /langage/fluence        
-  - Citer le maximum de mots d'une catégorie en 60s (animaux, fruits,
-  meubles...)                                                                   
-  - Citer le maximum de mots commençant par une lettre (P, R, F...)
-  - Compléter des séries sémantiques interrompues (chien, chat, ...)            
-ok
-
-  ---                                                                           
-  /langage/denomination                                                         
-  - Nommer un objet affiché (image → mot)
-  - Nommer à partir d'une description (définition → mot)
-  - Compléter une phrase à trou avec l'image comme indice ("on coupe le pain
-  avec un...")
-  - Dénomination avec amorçage phonologique (première syllabe donnée en indice) 
-ok
-                                                               
-  ---                                                                           
-  /langage/comprehension
-  - Désigner l'image correspondant à un mot entendu parmi 4 distracteurs        
-  - Exécuter des consignes orales de complexité croissante ("touche le crayon,
-  puis le verre")                                                           
-  - Répondre par oui/non à des questions simples puis complexes                 
-  - Associer une phrase entendue à l'image correspondante                       
-  1. Désignation → mot isolé                                                    
-  2. Questions oui/non → compréhension propositionnelle simple
-  3. Appariement phrase-image → compréhension syntaxique                        
-  4. Exécution d'ordres → compréhension séquentielle/syntaxique complexe
-
----
-ok
-
-  ---                                                                           
-  /langage/repetition                                                           
-  - Répéter des mots simples → complexes → pseudo-mots                          
-  - Répéter des phrases courtes → longues             
-  - Répéter des logatomes (non-mots) pour isoler la boucle phonologique         
-  - Répétition rythmée (avec métronome) pour les formes non-fluentes   
-
-Nommage:
-  - Répétition de mots → intégrité de la voie lexicale + phonologique           
-  - Répétition de phrases → mémoire de travail verbale (empan)
-  - Répétition de non-mots → boucle phonologique pure (sans appui lexical)      
-  - Répétition rythmée → contourne le manque de fluence via l'hémisphère droit  
-  (principe de la MIT)   
-
-ok
-  ---    
-
-
-  /langage/lecture                                                              
-  - Lire à voix haute des mots réguliers (bateau, maison...)                    
-  - Lire à voix haute des mots irréguliers (femme, monsieur...)
-  - Lire des pseudo-mots (vurpan, treloc...) — teste la voie phonologique       
-  - Associer un mot écrit à son image                                           
-  - Lire des phrases courtes et choisir l'image correspondante                  
-
-        ├────────────────────────────┼────────────────────────────────────────────┤   
-  │ Lire à voix haute des mots │ Lecture de mots réguliers (voie            │
-  │  réguliers                 │ d'assemblage / voie phonologique)          │   
-  ├────────────────────────────┼────────────────────────────────────────────┤   
-  │ Lire à voix haute des mots │ Lecture de mots irréguliers (voie          │
-  │  irréguliers               │ d'adressage / voie lexicale)               │   
-  ├────────────────────────────┼────────────────────────────────────────────┤
-  │ Lire des pseudo-mots       │ Lecture de pseudo-mots (épreuve de la voie │   
-  │                            │  d'assemblage pure)                        │
-  ├────────────────────────────┼────────────────────────────────────────────┤
-  │ Associer un mot écrit à    │ Appariement mot écrit-image (compréhension │
-  │ son image                  │  lexicale écrite)                          │   
-  ├────────────────────────────┼────────────────────────────────────────────┤
-  │ Lire une phrase et choisir │ Appariement phrase écrite-image            │   
-  │  l'image                   │ (compréhension de phrases écrites)                                                                            
-  
-  ---                   
-
-ok
-
----
-
-  /langage/ecriture
-  - Copier des lettres, mots, phrases                                           
-  - Écrire sous dictée (mots réguliers → irréguliers → pseudo-mots)
-  - Compléter un mot écrit avec les lettres manquantes                          
-  - Écriture spontanée : décrire une image par écrit  
-    │ Copier des lettres, mots,     │ Copie (copie de lettres / mots /        │
-  │ phrases                       │ phrases)                                │
-  ├───────────────────────────────┼─────────────────────────────────────────┤
-  │ Écrire sous dictée            │ Dictée (dictée de mots réguliers /      │
-  │                               │ irréguliers / pseudo-mots)              │
-  ├───────────────────────────────┼─────────────────────────────────────────┤
-  │ Compléter un mot avec les     │ Complètement de mots écrits (closure    │
-  │ lettres manquantes            │ graphémique)                            │
-  ├───────────────────────────────┼─────────────────────────────────────────┤
-  │ Décrire une image par écrit   │ Écriture spontanée (production écrite   │
-  │                               │ spontanée)    
-
-ok
-
----
-
-
-
 
 
   ## memo verbale
@@ -473,117 +381,7 @@ ok
   - Mémoire verbale                                                                                                                                                                                         
   - Mémoire visuo-spatiale
 
-## orientation spatiale
-
-⏺ Les exercices de remédiation de l'orientation spatiale couvrent plusieurs niveaux, du corps propre jusqu'à l'espace extra-personnel :                                                                     
-                                                                                                                                                                                                            
-  ---                                                                                                                                                                                                       
-  1. Orientation sur le corps (espace corporel)                                                                                                                                                             
-                                                                                                                                                                                                            
-  ┌──────────────────────────┬───────────────────────────────────────────────────────────────────────┐
-  │         Exercice         │                              Description                              │
-  ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-  │ Droite/gauche sur soi    │ Désigner rapidement la main droite, l'oreille gauche...               │
-  ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-  │ Droite/gauche sur autrui │ Désigner droite/gauche sur un personnage face à soi (inversion)       │                                                                                                      
-  ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤                                                                                                      
-  │ Schéma corporel          │ Pointer une partie du corps nommée sur une silhouette                 │                                                                                                      
-  ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤                                                                                                      
-  │ Imitation de postures    │ Reproduire la position des membres d'un modèle (miroir vs. identique) │
-  └──────────────────────────┴───────────────────────────────────────────────────────────────────────┘                                                                                                      
-                  
-  ---                                                                                                                                                                                                       
-  2. Orientation dans l'espace péri-personnel
-                                                                                                                                                                                                            
-  ┌──────────────────────────┬────────────────────────────────────────────────────────────────────┐
-  │         Exercice         │                            Description                             │                                                                                                         
-  ├──────────────────────────┼────────────────────────────────────────────────────────────────────┤
-  │ Relations topologiques   │ Placer un objet selon une consigne (au-dessus, derrière, entre...) │
-  ├──────────────────────────┼────────────────────────────────────────────────────────────────────┤
-  │ Copie de figure orientée │ Reproduire une figure en respectant son orientation exacte         │                                                                                                         
-  ├──────────────────────────┼────────────────────────────────────────────────────────────────────┤                                                                                                         
-  │ Bissection de lignes     │ Trouver le milieu d'une ligne (détecte l'héminégligence)           │                                                                                                         
-  ├──────────────────────────┼────────────────────────────────────────────────────────────────────┤                                                                                                         
-  │ Barrage de cibles        │ Rayer toutes les cibles sur une feuille (exploration systématique) │
-  ├──────────────────────────┼────────────────────────────────────────────────────────────────────┤                                                                                                         
-  │ Repérage sur grille      │ Localiser une case selon des coordonnées (ligne/colonne)           │
-  └──────────────────────────┴────────────────────────────────────────────────────────────────────┘                                                                                                         
-                  
-  ---                                                                                                                                                                                                       
-  3. Orientation dans l'espace extra-personnel (navigation)
-                                                                                                                                                                                                            
-  ┌───────────────────────────────────┬────────────────────────────────────────────────────────────────┐
-  │             Exercice              │                          Description                           │                                                                                                    
-  ├───────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Plan d'un lieu familier           │ Dessiner de mémoire le plan de son appartement, quartier       │
-  ├───────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Lecture de carte                  │ Suivre un itinéraire sur une carte simplifiée                  │                                                                                                    
-  ├───────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Apprentissage d'un trajet virtuel │ Mémoriser et reproduire un chemin dans un environnement simulé │                                                                                                    
-  ├───────────────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                    
-  │ Orientation par points de repère  │ Identifier sa position à partir de repères visuels             │
-  ├───────────────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                    
-  │ Estimation de distances           │ Juger quelle distance est la plus grande entre deux trajets    │
-  └───────────────────────────────────┴────────────────────────────────────────────────────────────────┘                                                                                                    
-                  
-  ---                                                                                                                                                                                                       
-  4. Orientation temporelle et allopsychique
-                                                                                                                                                                                                            
-  ┌──────────────────────────────┬────────────────────────────────────────────────────────────────┐
-  │           Exercice           │                          Description                           │                                                                                                         
-  ├──────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Orientation temporo-spatiale │ Questions sur la date, le lieu, la saison (type MMS)           │
-  ├──────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Remise en ordre d'événements │ Replacer des images d'une journée dans l'ordre chronologique   │                                                                                                         
-  ├──────────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                         
-  │ Calendrier interactif        │ Localiser une date sur un calendrier, calculer des intervalles │                                                                                                         
-  └──────────────────────────────┴────────────────────────────────────────────────────────────────┘                                                                                                         
-                  
-  ---                                                                                                                                                                                                       
-  5. Rotation et transformation mentale
-                                       
-  ┌───────────────────────────┬──────────────────────────────────────────────────────────┐
-  │         Exercice          │                       Description                        │                                                                                                                  
-  ├───────────────────────────┼──────────────────────────────────────────────────────────┤
-  │ Rotation mentale d'objets │ Identifier un objet après rotation de 90°, 180°          │                                                                                                                  
-  ├───────────────────────────┼──────────────────────────────────────────────────────────┤
-  │ Perspective spatiale      │ Décrire une scène vue depuis un autre point de vue       │                                                                                                                  
-  ├───────────────────────────┼──────────────────────────────────────────────────────────┤                                                                                                                  
-  │ Cube de Shepard           │ Jugement d'identité de figures 3D orientées différemment │                                                                                                                  
-  ├───────────────────────────┼──────────────────────────────────────────────────────────┤                                                                                                                  
-  │ Dépliage de solides       │ Reconnaître le patron d'un cube ou d'un solide           │
-  └───────────────────────────┴──────────────────────────────────────────────────────────┘                                                                                                                  
-                  
-  ---                                                                                                                                                                                                       
-  6. Stratégies de compensation
-
-  ┌────────────────────────────┬──────────────────────────────────────────────────────────────┐
-  │         Stratégie          │                         Description                          │
-  ├────────────────────────────┼──────────────────────────────────────────────────────────────┤
-  │ Ancrage corporel           │ Utiliser le corps comme référentiel stable (côté dominant)   │
-  ├────────────────────────────┼──────────────────────────────────────────────────────────────┤
-  │ Verbalisation du trajet    │ Décrire à voix haute les étapes d'un déplacement             │                                                                                                             
-  ├────────────────────────────┼──────────────────────────────────────────────────────────────┤                                                                                                             
-  │ Points de repère saillants │ Apprendre à identifier et mémoriser des repères visuels clés │                                                                                                             
-  ├────────────────────────────┼──────────────────────────────────────────────────────────────┤                                                                                                             
-  │ Exploration systématique   │ Balayer l'espace de gauche à droite de façon méthodique      │
-  └────────────────────────────┴──────────────────────────────────────────────────────────────┘                                                                                                             
-                  
-  ---                                                                                                                                                                                                       
-  Vue d'ensemble des niveaux spatiaux ciblés
-                                            
-  ┌─────────────────┬────────────────────────────────────────────┐
-  │     Niveau      │           Exercices prioritaires           │                                                                                                                                          
-  ├─────────────────┼────────────────────────────────────────────┤
-  │ Corporel        │ Droite/gauche, schéma corporel, imitation  │                                                                                                                                          
-  ├─────────────────┼────────────────────────────────────────────┤
-  │ Péri-personnel  │ Bissetion, barrage, relations topologiques │
-  ├─────────────────┼────────────────────────────────────────────┤                                                                                                                                          
-  │ Extra-personnel │ Plan, carte, navigation virtuelle          │
-  ├─────────────────┼────────────────────────────────────────────┤                                                                                                                                          
-  │ Mental/abstrait │ Rotation mentale, perspective, dépliage    │
-  └─────────────────┴────────────────────────────────────────────┘                                                                                                                                          
-                  
+   
 ## praxies
 
 ⏺ Les exercices de remédiation des praxies ciblent les gestes volontaires et appris, perturbés dans les apraxies :                                                                                          
@@ -815,9 +613,7 @@ ok
   └────────────────────────────┴────────────────────────────────────────────┘                                                                                                                               
    
 ## fonctions exécutive
-
-⏺ Oui, ta base est solide — ce sont trois références incontournables. Voici ce qui peut compléter :                                                                                                         
-                                                                                                                                                                                                            
+                                                                                                                                                                                                    
   ---                                                                                                                                                                                                       
   Planification & résolution de problèmes
                                                                                                                                                                                                             
@@ -1229,155 +1025,6 @@ ok
   Le PASAT et le Dual N-back sont les références cliniques les plus utilisées. Tu veux continuer avec l'attention soutenue et sélective, ou passer directement à la structure de l'appli ?
              
 
-
-## Attention sélective
-
-⏺ Les exercices de remédiation de l'attention sélective ciblent la capacité à focaliser sur un stimulus pertinent en inhibant les distracteurs :                                                            
-                                                                                                                                                                                                            
-  ---                                                                                                                                                                                                       
-  1. Détection de cibles visuelles                                                                                                                                                                          
-                                                                                                                                                                                                            
-  ┌────────────────────────────────┬─────────────────────────────────────────────────────────────────────────┐
-  │            Exercice            │                               Description                               │                                                                                              
-  ├────────────────────────────────┼─────────────────────────────────────────────────────────────────────────┤
-  │ Barrage simple                 │ Rayer une seule cible parmi des distracteurs (lettre, chiffre, symbole) │
-  ├────────────────────────────────┼─────────────────────────────────────────────────────────────────────────┤
-  │ Barrage double                 │ Rayer deux cibles simultanément parmi des distracteurs                  │                                                                                              
-  ├────────────────────────────────┼─────────────────────────────────────────────────────────────────────────┤                                                                                              
-  │ Recherche visuelle simple      │ Trouver une cible définie par un seul attribut (couleur OU forme)       │                                                                                              
-  ├────────────────────────────────┼─────────────────────────────────────────────────────────────────────────┤                                                                                              
-  │ Recherche visuelle conjonctive │ Trouver une cible définie par deux attributs (couleur ET forme)         │
-  ├────────────────────────────────┼─────────────────────────────────────────────────────────────────────────┤                                                                                              
-  │ Odd-one-out                    │ Identifier l'intrus dans un ensemble de stimuli similaires              │
-  └────────────────────────────────┴─────────────────────────────────────────────────────────────────────────┘                                                                                              
-                  
-  ---                                                                                                                                                                                                       
-  2. Inhibition des distracteurs
-
-  ┌────────────────────┬────────────────────────────────────────────────────────────────┐
-  │      Exercice      │                          Description                           │
-  ├────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Stroop couleur-mot │ Nommer la couleur de l'encre en ignorant le mot écrit          │
-  ├────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Stroop spatial     │ Indiquer la position d'une flèche en ignorant sa direction     │                                                                                                                   
-  ├────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                                   
-  │ Flanker task       │ Répondre à une cible centrale en ignorant les flanqueurs       │                                                                                                                   
-  ├────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                                   
-  │ Simon task         │ Répondre selon la couleur en ignorant la position spatiale     │
-  ├────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                                   
-  │ Negative priming   │ Répondre à une cible qui était distracteur à l'essai précédent │
-  └────────────────────┴────────────────────────────────────────────────────────────────┘                                                                                                                   
-                  
-  ---                                                                                                                                                                                                       
-  3. Attention sélective auditive
-
-  ┌────────────────────────────────────┬────────────────────────────────────────────────────────────┐
-  │              Exercice              │                        Description                         │
-  ├────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-  │ Cocktail party                     │ Suivre un message dans un flux de parole parasité          │
-  ├────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-  │ Détection de mot cible             │ Appuyer quand un mot précis est entendu dans un texte oral │                                                                                                       
-  ├────────────────────────────────────┼────────────────────────────────────────────────────────────┤                                                                                                       
-  │ Discrimination auditive avec bruit │ Identifier un son cible malgré un bruit de fond croissant  │                                                                                                       
-  ├────────────────────────────────────┼────────────────────────────────────────────────────────────┤                                                                                                       
-  │ Écoute sélective dichotique        │ Suivre uniquement l'oreille droite ou gauche               │
-  └────────────────────────────────────┴────────────────────────────────────────────────────────────┘                                                                                                       
-                  
-  ---                                                                                                                                                                                                       
-  4. Attention sélective dans le texte
-
-  ┌───────────────────────────┬────────────────────────────────────────────────────────────────┐
-  │         Exercice          │                          Description                           │
-  ├───────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Lecture sélective         │ Relever uniquement les mots d'une catégorie dans un texte      │
-  ├───────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Détection d'erreurs       │ Repérer les fautes d'orthographe ou incohérences dans un texte │                                                                                                            
-  ├───────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                            
-  │ Surlignage sélectif       │ Identifier et marquer les informations pertinentes             │                                                                                                            
-  ├───────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                            
-  │ Lecture avec distracteurs │ Lire un texte avec des mots non pertinents intercalés          │
-  └───────────────────────────┴────────────────────────────────────────────────────────────────┘                                                                                                            
-                  
-  ---
-  5. Attention sélective spatiale
-                                                                                                                                                                                                            
-  ┌──────────────────────────┬──────────────────────────────────────────────────────────────────┐
-  │         Exercice         │                           Description                            │                                                                                                           
-  ├──────────────────────────┼──────────────────────────────────────────────────────────────────┤
-  │ Paradigme de Posner      │ Orienter l'attention vers un indice spatial valide ou invalide   │
-  ├──────────────────────────┼──────────────────────────────────────────────────────────────────┤
-  │ Fenêtre attentionnelle   │ Détecter une cible dans une zone restreinte de l'écran           │                                                                                                           
-  ├──────────────────────────┼──────────────────────────────────────────────────────────────────┤                                                                                                           
-  │ Exploration systématique │ Balayer méthodiquement un espace pour trouver des cibles         │                                                                                                           
-  ├──────────────────────────┼──────────────────────────────────────────────────────────────────┤                                                                                                           
-  │ Extinction visuelle      │ Détecter des cibles présentées unilatéralement ou bilatéralement │
-  └──────────────────────────┴──────────────────────────────────────────────────────────────────┘                                                                                                           
-                  
-  ---                                                                                                                                                                                                       
-  6. Filtrage sémantique
-
-  ┌───────────────────────────────────────┬────────────────────────────────────────────────────────────────┐
-  │               Exercice                │                          Description                           │
-  ├───────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Catégorisation rapide                 │ Répondre uniquement aux mots d'une catégorie cible             │
-  ├───────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-  │ Décision lexicale sélective           │ Appuyer uniquement sur les mots vivants / non-vivants          │                                                                                                
-  ├───────────────────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                
-  │ Tri sélectif                          │ Classer des cartes en ignorant une dimension non pertinente    │                                                                                                
-  ├───────────────────────────────────────┼────────────────────────────────────────────────────────────────┤                                                                                                
-  │ Jugement sémantique avec distracteurs │ Répondre à la cible sémantique malgré des distracteurs proches │
-  └───────────────────────────────────────┴────────────────────────────────────────────────────────────────┘                                                                                                
-                  
-  ---                                                                                                                                                                                                       
-  7. Stratégies de remédiation
-
-  ┌────────────────────────────────────────┬───────────────────────────────────────────────────────────────────────────────┐
-  │               Stratégie                │                                  Description                                  │
-  ├────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────┤
-  │ Réduction progressive des distracteurs │ Commencer sans distracteur, augmenter graduellement                           │
-  ├────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────┤
-  │ Saillance de la cible                  │ Rendre la cible très distincte au départ, puis la rapprocher des distracteurs │                                                                                
-  ├────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────┤                                                                                
-  │ Verbalisation de la règle              │ Énoncer à voix haute le critère de sélection avant chaque essai               │                                                                                
-  ├────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────┤                                                                                
-  │ Entraînement à l'inhibition            │ Pratiquer intensivement les tâches Stroop et Flanker                          │
-  ├────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────┤                                                                                
-  │ Feedback immédiat                      │ Corriger chaque erreur de sélection immédiatement                             │
-  └────────────────────────────────────────┴───────────────────────────────────────────────────────────────────────────────┘                                                                                
-                  
-  ---                                                                                                                                                                                                       
-  Vue d'ensemble des composantes ciblées
-
-  ┌─────────────────────┬─────────────────────────────────────┐
-  │     Composante      │       Exercices prioritaires        │
-  ├─────────────────────┼─────────────────────────────────────┤
-  │ Détection visuelle  │ Barrage, recherche visuelle         │
-  ├─────────────────────┼─────────────────────────────────────┤
-  │ Inhibition          │ Stroop, Flanker, Simon              │                                                                                                                                             
-  ├─────────────────────┼─────────────────────────────────────┤
-  │ Sélection auditive  │ Cocktail party, écoute sélective    │                                                                                                                                             
-  ├─────────────────────┼─────────────────────────────────────┤                                                                                                                                             
-  │ Sélection spatiale  │ Posner, exploration systématique    │
-  ├─────────────────────┼─────────────────────────────────────┤                                                                                                                                             
-  │ Filtrage sémantique │ Catégorisation rapide, tri sélectif │
-  └─────────────────────┴─────────────────────────────────────┘                                                                                                                                             
-                  
-  ---
-  Rappel de la distinction avec les autres types :
-                                                                                                                                                                                                            
-  ┌────────────┬────────────────────────────────────────────┐
-  │    Type    │               Mécanisme clé                │                                                                                                                                               
-  ├────────────┼────────────────────────────────────────────┤
-  │ Sélective  │ Focaliser + inhiber les distracteurs ← ici │                                                                                                                                               
-  ├────────────┼────────────────────────────────────────────┤
-  │ Divisée    │ Traiter deux sources simultanément         │                                                                                                                                               
-  ├────────────┼────────────────────────────────────────────┤
-  │ Soutenue   │ Maintenir l'alerte sur la durée            │                                                                                                                                               
-  ├────────────┼────────────────────────────────────────────┤                                                                                                                                               
-  │ Alternante │ Switcher entre deux règles successivement  │
-  └────────────┴────────────────────────────────────────────┘                                                                                                                                               
-                  
-
 ## Attention soutenue
 
 ⏺ Les exercices de remédiation de l'attention soutenue ciblent la capacité à maintenir un niveau d'alerte et de vigilance sur une durée prolongée :                                                         
@@ -1607,4 +1254,129 @@ ok
   │ Dépression / Anxiété                   │ Attention, mémoire, vitesse de traitement                       │
   ├────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┤                                                                                              
   │ Vieillissement normal                  │ Mémoire, vitesse, fonctions exécutives                          │
-  └────────────────────────────────────────┴─────────────────────────────────────────────────────────────────┘                                                                                              
+  └────────────────────────────────────────┴─────────────────────────────────────────────────────────────────┘                                                
+
+## Recommandations
+
+Voici des recommandations de remédiation cognitive ciblées selon la localisation lésionnelle (hémisphère droit, hémisphère gauche, tronc cérébral / cervelet, lobes frontaux, lobes pariétal/occipital/temporal, thalamus). Progression : simple → complexe ; adapter modalité (verbale/visuelle/manuelle) aux déficits moteurs ou aphasiques. Sessions courtes (15–30 min), 4–6 fois/semaine si possible.
+
+### Hémisphère gauche (dominant pour langage chez la plupart)
+
+- Objectifs principaux : langage expressif et réceptif, mémoire verbale, séquencement, praxies.
+- Exercices langage expressif :
+  - Dénomination d’images simple → phrases courtes → descriptions d’images.  
+  - Répétition guidée de mots/phrases, lecture à voix haute graduée (mots → phrases → paragraphes).  
+  - Exercices de fluence phonémique et catégorielle (60 s).
+- Compréhension orale :
+  - Compréhension de consignes à 1 puis plusieurs étapes, questions de compréhension après courtes histoires.  
+  - Appariement mot-image, tri sémantique.
+- Mémoire verbale :
+  - Listes de mots (répétition espacée, indices sémantiques), récit de courte histoire et rappel différé.  
+  - Stratégies mnémotechniques verbales (acronymes, imagerie).
+- Fonctions exécutives / séquencement :
+  - Planification verbale (expliquer étapes d’une tâche quotidienne), tâches de catégorisation et alternance de règles.  
+  - Exercices d’organisation écrite (rédiger une liste de courses, structurer un e‑mail).
+- Pratiques compensatoires :
+  - Utiliser supports écrits, pictogrammes, séries d’indices visuels ; encourager la communication gestuelle si l’aphasie est sévère.
+
+### Hémisphère droit (non-dominant — attention spatiale, perception, prosodie, reconnaissance visuo‑constructive)
+
+- Objectifs principaux : attention spatiale/visuoconstructive, négligence unilatérale, perception visuelle, prosodie émotionnelle.
+- Attention spatiale / négligence :
+  - Tâches de balayage visuel (chercher toutes les lettres “H” dans une grille), exercices de lecture dirigée (line bisection, cancellation tasks), jeux de recherche d’objets.  
+  - Exercices de stimulation gauche (stimuler, regarder volontairement à gauche, mobiliser le membre gauche).
+- Visuo‑constructif / perception :
+  - Copie de figures simples → figures complexes (Rey-Osterrieth), puzzles, assemblage de blocs.  
+  - Matching d’objets/inversions, reconstitution d’images tronquées.
+- Prosodie / reconnaissance émotionnelle :
+  - Exercices d’identification des émotions dans la voix ou sur des visages, répétition de phrases avec intonations émotionnelles.  
+  - Lecture expressive et imitation de prosodie.
+- Attention visuelle soutenue :
+  - Tâches de vigilance visuelle, balayage séquentiel avec augmentation progressive de distracteurs.
+- Stratégies compensatoires :
+  - Marquages/repères visuels à gauche (post‑it, rubans), entraînement multimodal (sonore + visuel) pour améliorer détection.
+
+### Lobe frontal / cortex préfrontal (fonctions exécutives, inhibition, planification, initiation)
+
+- Objectifs principaux : planification, inhibition, flexibilité cognitive, initiation motrice/verbale, mémoire de travail.
+- Exercices planification :
+  - Tâches de planification multi‑étapes (préparer un repas imaginaire, organiser un itinéraire) avec check‑list et auto‑évaluation.  
+  - Jeux de stratégie (échiquier simplifié, tâches de tour de Hanoi adaptées).
+- Inhibition / contrôle des impulsions :
+  - Go/No‑Go simples → augmenter complexité, Stroop adapté (couleurs/lettres).  
+  - Exercices de pause‑réponse (attendre 5s avant d’agir).
+- Flexibilité cognitive :
+  - Alternance de règles (trier cartes selon couleur puis forme), tâches de commutation.
+- Mémoire de travail :
+  - Séquences de chiffres/lettres à répéter en ordre inverse, tâches duales (retenir une liste tout en répondant à une tâche).
+- Réintégration sociale et initiation :
+  - Jeux de rôle pour conversations, scripts sociaux, entraînement à l’auto‑monitoring (liste d’autocorrections).
+
+### Lobe pariétal (intégration sensorielle, attention spatiale, calcul, praxies)
+
+- Objectifs principaux : intégration visuo‑spatiale, calcul, praxies idéomotrices.
+- Praxies :
+  - Gestes sur commande (imitation passive → active), séquences gestuelles (faire signe de saluer → ouvrir porte).  
+  - Utiliser manipulables pour gestes de la vie quotidienne (boutonner, utiliser couverts).
+- Calcul / cognition numérique :
+  - Problèmes arithmétiques simples → méthodes de compensation (papier, calculatrice), jeux de monnaie simulée.
+- Traitement visuo‑spatial :
+  - Puzzles, repérage d’objets, tâches de reconstruction spatiale.
+- Intégration sensorielle :
+  - Exercices tactile-visuel (nommer objets à toucher les yeux fermés), discrimination droite/gauche.
+
+### Lobe temporal (mémoire épisodique, langage réceptif, reconnaissance visuelle)
+
+- Objectifs principaux : mémoire verbale & visuelle, reconnaissance d’objets/faces, compréhension sémantique.
+- Mémoire épisodique :
+  - Encodage structuré d’informations (indices, répétitions espacées), rappel libre puis indicé.  
+  - Raconter un souvenir récent puis questionner pour consolidations.
+- Reconnaissance visuelle / agnosie :
+  - Appariement d’images, nommage d’objets, exercices de discrimination visuelle fine.
+- Compréhension sémantique :
+  - Tri sémantique, associations mot‑image, tâches de définition simple.
+
+### Thalamus / noyaux profonds (fonctions d’éveil, attention, mémoire)
+
+- Objectifs principaux : vigilance, attention soutenue, mémoire de travail, récupération motrice fine si inclus.
+- Stimulation attentionnelle :
+  - Exercices gradués de vigilance (sons ou visuels à repérer) avec pauses régulières.  
+  - Répétitions courtes d’exercices de mémorisation.
+- Mémoire :
+  - Séquences courtes, répétition espacée, techniques de consolidation (indices contextuels).
+- Coordination / motricité fine (si atteinte) :
+  - Exercices de préhension, manipulation d’objets petits, coordination main‑œil.
+
+### Tronc cérébral / cervelet (équilibre, coordination, fonctions attentionnelles et vigilance)
+
+- Objectifs principaux : coordination, équilibre, traitement sensoriel, fonctions attentionnelles.
+- Coordination et équilibre :
+  - Exercices de cible avec la main (toucher cibles successives), lancer/rattraper ballon léger, exercices de proprioception assis/debout (selon sécurité).  
+  - Travail de coordination œil-main (suivre des cibles mobiles).
+- Vitesse de traitement et attention :
+  - Tâches de rapidité visuo‑manuelle (appuyer sur bouton à stimulus), exercices de suivi visuel.
+- Intégration vestibulaire :
+  - Exercices progressifs de tête/tronc si tolérés, en collaboration avec kinésithérapeute.
+
+### Atteinte hémisphérique bilatérale / diffuse (déclin cognitif étendu)
+
+- Objectifs : stabiliser fonctions globales, entraînement multi‑domaines, activités de stimulation globale.
+- Programmes multidomaines :
+  - Combinaison d’exercices attention/mémoire/exec/langage et activités significatives (cuisine, jardinage) sous supervision.  
+  - Entraînement cognitif informatisé avec adaptation automatique.
+
+### Principes transversaux et adaptations
+
+- Adapter modalité selon aphasie (privilégier supports visuels, gestes, choix multiple).  
+- Éviter la fatigue cognitive : 15–30 min, pauses fréquentes.  
+- Intégrer tâches fonctionnelles (généralisation) : cuisiner, gérer argent, conversations.  
+- Utiliser stratégies compensatoires : listes, alarmes, repères visuels, externalisation de la mémoire.  
+- Favoriser répétition espacée et retrieval practice (rappel actif plutôt que re‑relecture).  
+- Mesurer progrès avec tâches standardisées (MMSE, MoCA, tests de mémoire/attention) et ajuster.
+- Impliquer proches et kinés/ergothérapeutes, orthophonistes, neuropsychologues selon déficits.
+
+### Exemple de séance selon localisation (20 min)
+
+- Gauche (aphasie légère) : 3 min lecture mot/phrase, 8 min dénomination + répétition, 6 min récit d’une courte histoire + rappel, 3 min stratégies écrites.  
+- Droite (négligence) : 3 min exercices de balayage gauche, 8 min puzzles visuo‑spatiaux, 6 min activités de vie (ranger objet à gauche), 3 min stratégies visuelles (repères).  
+- Frontal : 3 min échauffement attention, 8 min tâches de planification/alternance, 6 min mémoire de travail duale, 3 min auto‑évaluation.
