@@ -1,6 +1,9 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { AttSelectText } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import LectureSelective from "@/app/ui/attention-selective-exo/texte-exo/LectureSelective";
+import DetectionErreurs from "@/app/ui/attention-selective-exo/texte-exo/DetectionErreurs";
+import SurlignageSelectif from "@/app/ui/attention-selective-exo/texte-exo/SurlignageSelectif";
+import LectureAvecDistract from "@/app/ui/attention-selective-exo/texte-exo/LectureAvecDistract";
 
 export default async function AttSelectTextExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,22 +14,22 @@ export default async function AttSelectTextExo({params}: {params: Promise<{id: s
         "1": {
             title: AttSelectText.lectureSelect.title,
             description: AttSelectText.lectureSelect.description,
-            component: <Truc patientId={patientId} />
+            component: <LectureSelective patientId={patientId} />
         },
         "2": {
             title: AttSelectText.detectionErreurs.title,
             description: AttSelectText.detectionErreurs.description,
-            component: <Truc patientId={patientId} />
+            component: <DetectionErreurs patientId={patientId} />
         },
         "3": {
             title: AttSelectText.surlignageSelect.title,
             description: AttSelectText.surlignageSelect.description,
-            component: <Truc patientId={patientId} />
+            component: <SurlignageSelectif patientId={patientId} />
         },
         "4": {
             title: AttSelectText.lectureAvecDistract.title,
             description: AttSelectText.lectureAvecDistract.description,
-            component: <Truc patientId={patientId} />
+            component: <LectureAvecDistract patientId={patientId} />
         }
     };
 

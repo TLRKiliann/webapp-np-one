@@ -2,8 +2,7 @@
 
 ## List of goals for this webapp
 
-
-⏺ Voici les changements appliqués sur les 3 menus :
+Light
 
   ┌───────────────┬───────────────┬───────────────┬─────────────────┐
   │    Élément    │ Avant (light) │ Après (light) │ Dark (inchangé) │
@@ -21,7 +20,7 @@
   │ Dropdowns     │ green-*       │ teal-*        │ indigo-*        │
   └───────────────┴───────────────┴───────────────┴─────────────────┘
   
-⏺ Voici le tableau récapitulatif des changements dark mode :
+Dark
 
   ┌────────────────┬─────────────────────┬─────────────────────────────────┐
   │    Élément     │    Avant (dark)     │          Après (dark)           │
@@ -166,9 +165,9 @@ ok
   - Répondre par oui/non à des questions simples puis complexes                 
   - Associer une phrase entendue à l'image correspondante                       
   1. Désignation → mot isolé                                                    
-  1. Questions oui/non → compréhension propositionnelle simple
-  2. Appariement phrase-image → compréhension syntaxique                        
-  3. Exécution d'ordres → compréhension séquentielle/syntaxique complexe
+  2. Questions oui/non → compréhension propositionnelle simple
+  3. Appariement phrase-image → compréhension syntaxique                        
+  4. Exécution d'ordres → compréhension séquentielle/syntaxique complexe
 
 ---
 ok

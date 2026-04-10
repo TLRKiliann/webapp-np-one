@@ -1,6 +1,10 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { InhibitionDistract } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import StroopColorWord from "@/app/ui/attention-selective-exo/inhibition-distracteurs-exo/StroopColorWord";
+import StroopSpatial from "@/app/ui/attention-selective-exo/inhibition-distracteurs-exo/StroopSpatial";
+import FlankerTask from "@/app/ui/attention-selective-exo/inhibition-distracteurs-exo/FlankerTask";
+import SimonTask from "@/app/ui/attention-selective-exo/inhibition-distracteurs-exo/SimonTask";
+import NegPriming from "@/app/ui/attention-selective-exo/inhibition-distracteurs-exo/NegPriming";
 
 export default async function InhibitionDistracteursExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,27 +15,27 @@ export default async function InhibitionDistracteursExo({params}: {params: Promi
         "1": {
             title: InhibitionDistract.stroopCouleurMot.title,
             description: InhibitionDistract.stroopCouleurMot.description,
-            component: <Truc patientId={patientId} />
+            component: <StroopColorWord patientId={patientId} />
         },
         "2": {
             title: InhibitionDistract.stroopSpatial.title,
             description: InhibitionDistract.stroopSpatial.description,
-            component: <Truc patientId={patientId} />
+            component: <StroopSpatial patientId={patientId} />
         },
         "3": {
             title: InhibitionDistract.flankerTask.title,
             description: InhibitionDistract.flankerTask.description,
-            component: <Truc patientId={patientId} />
+            component: <FlankerTask patientId={patientId} />
         },
         "4": {
             title: InhibitionDistract.simonTask.title,
             description: InhibitionDistract.simonTask.description,
-            component: <Truc patientId={patientId} />
+            component: <SimonTask patientId={patientId} />
         },
         "5": {
             title: InhibitionDistract.negativePriming.title,
             description: InhibitionDistract.negativePriming.description,
-            component: <Truc patientId={patientId} />
+            component: <NegPriming patientId={patientId} />
         }
     };
 

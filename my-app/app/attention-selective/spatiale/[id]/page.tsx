@@ -1,6 +1,9 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { AttSelectSpatiale } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import ParadigmePosner from "@/app/ui/attention-selective-exo/spatiale-exo/ParadigmePosner";
+import FenetreAttention from "@/app/ui/attention-selective-exo/spatiale-exo/FenetreAttention";
+import ExplorationSystem from "@/app/ui/attention-selective-exo/spatiale-exo/ExplorationSystem";
+import ExtinctionVisuelle from "@/app/ui/attention-selective-exo/spatiale-exo/ExtinctionVisuelle";
 
 export default async function AttSelectSpatialeExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,22 +14,22 @@ export default async function AttSelectSpatialeExo({params}: {params: Promise<{i
         "1": {
             title: AttSelectSpatiale.paradiPosner.title,
             description: AttSelectSpatiale.paradiPosner.description,
-            component: <Truc patientId={patientId} />
+            component: <ParadigmePosner patientId={patientId} />
         },
         "2": {
             title: AttSelectSpatiale.fenAttention.title,
             description: AttSelectSpatiale.fenAttention.description,
-            component: <Truc patientId={patientId} />
+            component: <FenetreAttention patientId={patientId} />
         },
         "3": {
             title: AttSelectSpatiale.exploSystematic.title,
             description: AttSelectSpatiale.exploSystematic.description,
-            component: <Truc patientId={patientId} />
+            component: <ExplorationSystem patientId={patientId} />
         },
         "4": {
             title: AttSelectSpatiale.extinctionVisu.title,
             description: AttSelectSpatiale.extinctionVisu.description,
-            component: <Truc patientId={patientId} />
+            component: <ExtinctionVisuelle patientId={patientId} />
         }
     };
 

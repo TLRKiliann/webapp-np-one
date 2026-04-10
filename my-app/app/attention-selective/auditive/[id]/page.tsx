@@ -1,4 +1,3 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { AttSelectAuditive } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
 import CocktailParty from "@/app/ui/attention-selective-exo/auditive-exo/CocktailParty";

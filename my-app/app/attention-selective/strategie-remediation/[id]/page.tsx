@@ -1,6 +1,10 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { StrategieRemediation } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import ReductionProgDistracteurs from "@/app/ui/attention-selective-exo/strategie-remediation-exo/ReductionProgDistracteurs";
+import SaillanceCible from "@/app/ui/attention-selective-exo/strategie-remediation-exo/SaillanceCible";
+import VerbalisationRegles from "@/app/ui/attention-selective-exo/strategie-remediation-exo/VerbalisationRegles";
+import EntrainmtInhibiteurs from "@/app/ui/attention-selective-exo/strategie-remediation-exo/EntrainmtInhibiteurs";
+import FeedBackImmediat from "@/app/ui/attention-selective-exo/strategie-remediation-exo/FeedBackImmediat";
 
 export default async function StrategieRemediationExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,27 +15,27 @@ export default async function StrategieRemediationExo({params}: {params: Promise
         "1": {
             title: StrategieRemediation.reducProgDistract.title,
             description: StrategieRemediation.reducProgDistract.description,
-            component: <Truc patientId={patientId} />
+            component: <ReductionProgDistracteurs patientId={patientId} />
         },
         "2": {
             title: StrategieRemediation.saillanceCible.title,
             description: StrategieRemediation.saillanceCible.description,
-            component: <Truc patientId={patientId} />
+            component: <SaillanceCible patientId={patientId} />
         },
         "3": {
             title: StrategieRemediation.verbaliRegle.title,
             description: StrategieRemediation.verbaliRegle.description,
-            component: <Truc patientId={patientId} />
+            component: <VerbalisationRegles patientId={patientId} />
         },
         "4": {
             title: StrategieRemediation.entrainmtInhib.title,
             description: StrategieRemediation.entrainmtInhib.description,
-            component: <Truc patientId={patientId} />
+            component: <EntrainmtInhibiteurs patientId={patientId} />
         },
         "5": {
             title: StrategieRemediation.feedBackImmediat.title,
             description: StrategieRemediation.feedBackImmediat.description,
-            component: <Truc patientId={patientId} />
+            component: <FeedBackImmediat patientId={patientId} />
         }
     };
 
