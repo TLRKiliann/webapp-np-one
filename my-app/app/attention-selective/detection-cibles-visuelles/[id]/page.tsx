@@ -1,6 +1,10 @@
-import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { DetectionCiblesVisu } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import BarrageDouble from "@/app/ui/attention-selective-exo/detection-cibles-visu-exo/BarrageDouble";
+import BarrageSimple from "@/app/ui/attention-selective-exo/detection-cibles-visu-exo/BarrageSimple";
+import RechercheVisuSimple from "@/app/ui/attention-selective-exo/detection-cibles-visu-exo/RechercheVisuSimple";
+import RechercheVisuConjonctive from "@/app/ui/attention-selective-exo/detection-cibles-visu-exo/RechercheVisuConjonctive";
+import OddOneOut from "@/app/ui/attention-selective-exo/detection-cibles-visu-exo/OddOneOut";
 
 export default async function DetectionCiblesVisuellesExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,27 +15,27 @@ export default async function DetectionCiblesVisuellesExo({params}: {params: Pro
         "1": {
             title: DetectionCiblesVisu.barrageSimple.title,
             description: DetectionCiblesVisu.barrageSimple.description,
-            component: <Truc patientId={patientId} />
+            component: <BarrageSimple patientId={patientId} />
         },
         "2": {
             title: DetectionCiblesVisu.barrageDouble.title,
             description: DetectionCiblesVisu.barrageDouble.description,
-            component: <Truc patientId={patientId} />
+            component: <BarrageDouble patientId={patientId} />
         },
         "3": {
             title: DetectionCiblesVisu.rechVisuSimple.title,
             description: DetectionCiblesVisu.rechVisuSimple.description,
-            component: <Truc patientId={patientId} />
+            component: <RechercheVisuSimple patientId={patientId} />
         },
         "4": {
             title: DetectionCiblesVisu.rechVisuConjonct.title,
             description: DetectionCiblesVisu.rechVisuConjonct.description,
-            component: <Truc patientId={patientId} />
+            component: <RechercheVisuConjonctive patientId={patientId} />
         },
         "5": {
             title: DetectionCiblesVisu.oddOneOut.title,
             description: DetectionCiblesVisu.oddOneOut.description,
-            component: <Truc patientId={patientId} />
+            component: <OddOneOut patientId={patientId} />
         }
     };
 

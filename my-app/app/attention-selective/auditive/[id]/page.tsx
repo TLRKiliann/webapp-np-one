@@ -1,6 +1,10 @@
 import Truc from "@/app/ui/attention-selective-exo/Truc";
 import { AttSelectAuditive } from "@/lib/attention-selective";
 import { getSelectedPatient } from "@/app/actions/patients";
+import CocktailParty from "@/app/ui/attention-selective-exo/auditive-exo/CocktailParty";
+import DetectionMotCible from "@/app/ui/attention-selective-exo/auditive-exo/DetectionMotCible";
+import DiscriAuditAvecBruit from "@/app/ui/attention-selective-exo/auditive-exo/DiscriAuditAvecBruit";
+import EcouteSelectiveDicho from "@/app/ui/attention-selective-exo/auditive-exo/EcouteSelectiveDicho";
 
 export default async function AuditiveExo({params}: {params: Promise<{id: string}>}) {
     const { id } = await params;
@@ -11,22 +15,22 @@ export default async function AuditiveExo({params}: {params: Promise<{id: string
         "1": {
             title: AttSelectAuditive.cocktailParty.title,
             description: AttSelectAuditive.cocktailParty.description,
-            component: <Truc patientId={patientId} />
+            component: <CocktailParty patientId={patientId} />
         },
         "2": {
             title: AttSelectAuditive.dectectionMotCible.title,
             description: AttSelectAuditive.dectectionMotCible.description,
-            component: <Truc patientId={patientId} />
+            component: <DetectionMotCible patientId={patientId} />
         },
         "3": {
             title: AttSelectAuditive.discriAudiAvecB.title,
             description: AttSelectAuditive.discriAudiAvecB.description,
-            component: <Truc patientId={patientId} />
+            component: <DiscriAuditAvecBruit patientId={patientId} />
         },
         "4": {
             title: AttSelectAuditive.ecouSelectDicho.title,
             description: AttSelectAuditive.ecouSelectDicho.description,
-            component: <Truc patientId={patientId} />
+            component: <EcouteSelectiveDicho patientId={patientId} />
         }
     };
 

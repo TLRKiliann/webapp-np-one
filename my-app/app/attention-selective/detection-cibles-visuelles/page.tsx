@@ -30,7 +30,7 @@ export default function DetectionCiblesVisuellesPage() {
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/attention-selective/detection-cibles-visuelles/4">
+                        <Link href="/attention-selective/detection-cibles-visuelles/5">
                             {DetectionCiblesVisu.oddOneOut.title} {DetectionCiblesVisu.oddOneOut.description}
                         </Link>
                     </li>

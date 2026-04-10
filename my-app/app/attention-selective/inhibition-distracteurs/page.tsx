@@ -30,7 +30,7 @@ export default function InhibitionDistracteursPage() {
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/attention-selective/inhibition-distracteurs/4">
+                        <Link href="/attention-selective/inhibition-distracteurs/5">
                             {InhibitionDistract.negativePriming.title} {InhibitionDistract.negativePriming.description}
                         </Link>
                     </li>

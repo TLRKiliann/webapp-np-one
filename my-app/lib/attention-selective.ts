@@ -1,4 +1,4 @@
-import { AttSelectAuditiveType, AttSelectTextType, DetectionCiblesVisuType, InhibitionDistractType } from "./definitions";
+import { AttSelectAuditiveType, AttSelectSpatialeType, AttSelectTextType, DetectionCiblesVisuType, FiltrageSemanticType, InhibitionDistractType, StrategieRemediationType } from "./definitions";
 
 export const DetectionCiblesVisu: DetectionCiblesVisuType = {
     barrageSimple: {
@@ -81,5 +81,66 @@ export const AttSelectText: AttSelectTextType = {
     lectureAvecDistract: {
         title: "Lecture avec distracteurs",
         description: "Lire un texte avec des mots non pertinents intercalés"
+    }
+};
+
+export const AttSelectSpatiale: AttSelectSpatialeType = {
+    paradiPosner: {
+        title: "Paradigme de Posner",
+        description: "Orienter l'attention vers un indice spatial valide ou invalide"
+    },
+    fenAttention: {
+        title: "Fenêtre attentionnelle",
+        description: "Détecter une cible dans une zone restreinte de l'écran"
+    },
+    exploSystematic: {
+        title: "Exploration systématique",
+        description: "Balayer méthodiquement un espace pour trouver des cibles"
+    },
+    extinctionVisu: {
+        title: "Extinction visuelle",
+        description: "Détecter des cibles présentées unilatéralement ou bilatéralement"
+    }
+};
+
+export const FiltrageSemantic: FiltrageSemanticType = {
+    categoriRapide: {
+        title: "Catégorisation rapide",
+        description: "Répondre uniquement aux mots d'une catégorie cible"
+    },
+    decisionLexiSelect: {
+        title: "Décision lexicale sélective",
+        description: "Appuyer uniquement sur les mots vivants / non-vivants"
+    },
+    triSelectif: {
+        title: "Tri sélectif",
+        description: "Classer des cartes en ignorant une dimension non pertinente"
+    },
+    jugmntSemanticDistra: {
+        title: "Jugement sémantique avec distracteurs",
+        description: "Répondre à la cible sémantique malgré des distracteurs proches"
+    }
+};
+
+export const StrategieRemediation: StrategieRemediationType = {
+    reducProgDistract: {
+        title: "Réduction progressive des distracteurs",
+        description: "Commencer sans distracteur, augmenter graduellement"
+    },
+    saillanceCible: {
+        title: "Saillance de la cible",
+        description: "Rendre la cible très distincte au départ, puis la rapprocher des distracteurs"
+    },
+    verbaliRegle: {
+        title: "Verbalisation de la règle",
+        description: "Énoncer à voix haute le critère de sélection avant chaque essai"
+    },
+    entrainmtInhib: {
+        title: "Entraînement à l'inhibition",
+        description: "Pratiquer intensivement les tâches Stroop et Flanker"
+    },
+    feedBackImmediat: {
+        title: "Feedback immédiat",
+        description: "Corriger chaque erreur de sélection immédiatement"
     }
 };

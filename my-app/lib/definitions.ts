@@ -304,3 +304,66 @@ export type AttSelectTextType = {
         description: string;
     }
 };
+
+export type AttSelectSpatialeType = {
+    paradiPosner: {
+        title: string;
+        description: string;
+    },
+    fenAttention: {
+        title: string;
+        description: string;
+    },
+    exploSystematic: {
+        title: string;
+        description: string;
+    },
+    extinctionVisu: {
+        title: string;
+        description: string;
+    }
+};
+
+export type FiltrageSemanticType = {
+    categoriRapide: {
+        title: string;
+        description: string;
+    },
+    decisionLexiSelect: {
+        title: string;
+        description: string;
+    },
+    triSelectif: {
+        title: string;
+        description: string;
+    },
+    jugmntSemanticDistra: {
+        title: string;
+        description: string;
+    }
+};
+
+export type StrategieRemediationType = {
+    reducProgDistract: {
+        title: string;
+        description: string;
+    },
+    saillanceCible: {
+        title: string;
+        description: string;
+    },
+    verbaliRegle: {
+        title: string;
+        description: string;
+    },
+    entrainmtInhib: {
+        title: string;
+        description: string;
+    },
+    feedBackImmediat: {
+        title: string;
+        description: string;
+    }
+};
+
+// apraxie

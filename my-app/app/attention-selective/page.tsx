@@ -34,15 +34,18 @@ export default function AttentionSelectivePage() {
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/attention-selective/">
+                        <Link href="/attention-selective/spatiale">
+                            Attention sélective spatiale
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/attention-selective/">
+                        <Link href="/attention-selective/filtrage-semantique">
+                            Filtrage sémantique
                         </Link>
                     </li>
                     <li className="text-xl hover:text-emerald-500 mb-2">
-                        <Link href="/attention-selective/">
+                        <Link href="/attention-selective/strategie-remediation">
+                            Stratégies de remédiation
                         </Link>
                     </li>
                 </ul>
