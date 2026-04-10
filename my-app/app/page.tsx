@@ -147,104 +147,104 @@ export default function Home() {
 
           </div>
 
-          <p>3) Si oui, pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
+          {optionDlr === "oui" && (
+            <>
+            <p>3) Pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
 
-          <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
+            <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
 
-            <label htmlFor="dlr1">
-              <input type="radio" id="dlr1" name="dlr1" 
-                value="dlr1" checked={douleurState === "dlr1"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              1
-            </label>
+              <label htmlFor="dlr1">
+                <input type="radio" id="dlr1" name="dlr1" 
+                  value="dlr1" checked={douleurState === "dlr1"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                1
+              </label>
 
-            <label htmlFor="dlr2">
-              <input type="radio" id="dlr2" name="dlr2" 
-                value="dlr2" checked={douleurState === "dlr2"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              2
-            </label>
+              <label htmlFor="dlr2">
+                <input type="radio" id="dlr2" name="dlr2" 
+                  value="dlr2" checked={douleurState === "dlr2"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                2
+              </label>
 
-            <label htmlFor="dlr3">
-              <input type="radio" id="dlr3" name="dlr3" 
-                value="dlr3" checked={douleurState === "dlr3"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              3
-            </label>
+              <label htmlFor="dlr3">
+                <input type="radio" id="dlr3" name="dlr3" 
+                  value="dlr3" checked={douleurState === "dlr3"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                3
+              </label>
 
-            <label htmlFor="dlr4">
-              <input type="radio" id="dlr4" name="dlr4" 
-                value="dlr4" checked={douleurState === "dlr4"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              4
-            </label>
+              <label htmlFor="dlr4">
+                <input type="radio" id="dlr4" name="dlr4" 
+                  value="dlr4" checked={douleurState === "dlr4"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                4
+              </label>
 
-            <label htmlFor="dlr5">
-              <input type="radio" id="dlr5" name="dlr5" 
-                value="dlr5" checked={douleurState === "dlr5"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              5
-            </label>
+              <label htmlFor="dlr5">
+                <input type="radio" id="dlr5" name="dlr5" 
+                  value="dlr5" checked={douleurState === "dlr5"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                5
+              </label>
 
-            <label htmlFor="dlr6">
-              <input type="radio" id="dlr6" name="dlr6" 
-                value="dlr6" checked={douleurState === "dlr6"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              6
-            </label>
+              <label htmlFor="dlr6">
+                <input type="radio" id="dlr6" name="dlr6" 
+                  value="dlr6" checked={douleurState === "dlr6"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                6
+              </label>
 
-            <label htmlFor="dlr7">
-              <input type="radio" id="dlr7" name="dlr7" 
-                value="dlr7" checked={douleurState === "dlr7"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              7
-            </label>
+              <label htmlFor="dlr7">
+                <input type="radio" id="dlr7" name="dlr7" 
+                  value="dlr7" checked={douleurState === "dlr7"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                7
+              </label>
 
-            <label htmlFor="dlr8">
-              <input type="radio" id="dlr8" name="dlr8" 
-                value="dlr8" checked={douleurState === "dlr8"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              8
-            </label>
+              <label htmlFor="dlr8">
+                <input type="radio" id="dlr8" name="dlr8" 
+                  value="dlr8" checked={douleurState === "dlr8"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                8
+              </label>
 
-            <label htmlFor="dlr9">
-              <input type="radio" id="dlr9" name="dlr9" 
-                value="dlr9" checked={douleurState === "dlr9"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              9
-            </label>
+              <label htmlFor="dlr9">
+                <input type="radio" id="dlr9" name="dlr9" 
+                  value="dlr9" checked={douleurState === "dlr9"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                9
+              </label>
 
-            <label htmlFor="dlr10">
-              <input type="radio" id="dlr10" name="dlr10" 
-                value="dlr10" checked={douleurState === "dlr10"} onChange={handleEvaDlr} 
-                className="mr-2"/>
-              10
-            </label>
+              <label htmlFor="dlr10">
+                <input type="radio" id="dlr10" name="dlr10" 
+                  value="dlr10" checked={douleurState === "dlr10"} onChange={handleEvaDlr} 
+                  className="mr-2"/>
+                10
+              </label>
 
-          </div>
+            </div>
+            </>
+          )}
 
-          <p>4) Vous sentez-vous stressé ?</p>
+          <p>{optionDlr === "oui" ? 4 : 3}) Vous sentez-vous stressé ?</p>
 
-          <p className="text-justify mt-4 mb-8">
+          <p className="text-justify mt-2">
             Si oui, faîtes un exercice de mindfullness axé sur la respiration pendant une minute ou deux. Puis quand vous vous sentez prêt, 
             commencez l'entraînement.
           </p>
 
         </div>
 
-        <nav className="flex justify-center py-8">
-          <ul className="disc-none">
-            <li>
-              <button
-                onClick={handleCommencer}
-                disabled={!optionFatigue || !optionDlr}
-                className="text-base text-white bg-teal-600 hover:bg-teal-700 active:bg-teal-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2"
-              >
-                Commencer l'entraînement
-              </button>
-            </li>
-          </ul>
-        </nav>
+        <div className="flex justify-center py-8">
+          <button
+            onClick={handleCommencer}
+            disabled={!optionFatigue || !optionDlr}
+            className="text-base text-white bg-teal-600 hover:bg-teal-700 active:bg-teal-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2"
+          >
+            Commencer l'entraînement
+          </button>
+        </div>
 
       </div>
 
