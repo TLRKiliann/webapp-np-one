@@ -2,6 +2,8 @@
 
 A cognitive rehabilitation app for post-AVC people.
 
+MT-86, BDAE
+
 (This is a demo project)
 
 ## Run
