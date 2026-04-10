@@ -1,7 +1,6 @@
-export default function AppariementPhrase() {
+export default function AppariementPhrase({ patientId }: { patientId: string | null }) {
+    void patientId;
     return (
-        <div>
-
-        </div>
+        <div></div>
     );
 };
