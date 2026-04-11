@@ -53,7 +53,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold">Intro</h2>
         </div>
 
-        <div className="bg-teal-50 dark:bg-indigo-800 border border-teal-200 dark:border-indigo-500 rounded-lg mx-10 p-8">
+        <div className="bg-teal-50 dark:bg-slate-800 border border-teal-200 dark:border-teal-600 rounded-lg mx-10 p-8">
           Bienvenue sur la page d'accueil de Neuro-Psy-Med.
           <br />
           Aucune données personnelles ne sera transmises à une organisation tierse ou à toute autre
@@ -68,10 +68,10 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-teal-50 dark:bg-indigo-800 border border-teal-200 dark:border-indigo-400 rounded-lg mx-10 p-10">
+        <div className="bg-teal-50 dark:bg-slate-800 border border-teal-200 dark:border-teal-600 rounded-lg mx-10 p-10">
           <p>1) Quel degré de fatigue ressentez-vous aujourd'hui ?</p>
 
-          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-100 flex flex-row items-center justify-evenly bg-white dark:bg-slate-900 border border-teal-100 dark:border-teal-600 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="fatigue1">
               <input 
@@ -117,7 +117,7 @@ export default function Home() {
 
           <p>2) Avez-vous des douleurs actuellement ?</p>
 
-          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 py-4">
+          <div className="w-50 flex flex-row items-center justify-evenly bg-white dark:bg-slate-900 border border-teal-100 dark:border-teal-600 rounded-lg mt-4 mb-8 py-4">
 
             <label htmlFor="dlroui">
               <input 
@@ -151,7 +151,7 @@ export default function Home() {
             <>
             <p>3) Pouvez-vous l'évaluer entre 1 et 10 sur l'échelle de la douleur ?</p>
 
-            <div className="flex flex-row items-center justify-around bg-white dark:bg-indigo-900 border border-teal-100 dark:border-indigo-500 rounded-lg mt-4 mb-8 mr-120 py-4">
+            <div className="flex flex-row items-center justify-around bg-white dark:bg-slate-900 border border-teal-100 dark:border-teal-600 rounded-lg mt-4 mb-8 mr-120 py-4">
 
               <label htmlFor="dlr1">
                 <input type="radio" id="dlr1" name="dlr1" 
