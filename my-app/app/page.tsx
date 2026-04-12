@@ -242,7 +242,7 @@ export default function Home() {
             disabled={!optionFatigue || !optionDlr}
             className="text-base text-white bg-teal-600 hover:bg-teal-700 active:bg-teal-500 dark:bg-indigo-700 dark:hover:bg-indigo-800 dark:active:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2"
           >
-            Commencer l'entraînement
+            Enregistrer
           </button>
         </div>
 

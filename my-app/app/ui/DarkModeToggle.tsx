@@ -17,7 +17,7 @@ export default function DarkModeToggle() {
             className="text-slate-100 font-bold hover:text-white transition-colors"
             aria-label="Toggle dark mode"
         >
-            {theme === "dark" ? "☀️ Light" : "🌙 Dark"}
+            {theme === "dark" ? "☀️" : "🌙"}
         </button>
     );
 }

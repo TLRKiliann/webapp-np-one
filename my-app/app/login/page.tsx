@@ -26,13 +26,13 @@ export default function LoginPage() {
     if (result?.error) {
       setError("Email ou mot de passe incorrect.");
     } else {
-      router.push("/");
+      router.push("/patient");
       router.refresh();
     }
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white dark:bg-slate-900">
+    <div className="min-h-[calc(100vh-215px)] flex items-center justify-center bg-white dark:bg-slate-900">
       <div className="w-full max-w-sm p-8 border border-slate-200 dark:border-slate-700 rounded-xl shadow-md">
         <h1 className="text-2xl font-bold mb-6 text-slate-800 dark:text-white text-center">
           Connexion
