@@ -1,25 +1,31 @@
 "use client";
 
 import { signIn } from "next-auth/react";
-import { useState, FormEvent } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
+
+type SignInResult = {
+  error?: string;
+  status?: number;
+  ok?: boolean;
+} | undefined;
 
 export default function LoginPage() {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.SubmitEvent<HTMLFormElement>): Promise<void> {
     e.preventDefault();
     setError(null);
     setLoading(true);
 
     const formData = new FormData(e.currentTarget);
     const result = await signIn("credentials", {
-      email: formData.get("email"),
-      password: formData.get("password"),
+      email: formData.get("email") as string,
+      password: formData.get("password") as string,
       redirect: false,
-    });
+    }) as SignInResult;
 
     setLoading(false);
 
@@ -32,7 +38,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-[calc(100vh-215px)] flex items-center justify-center bg-white dark:bg-slate-900">
+    <div className="min-h-[calc(100vh-250px)] flex items-center justify-center bg-white dark:bg-slate-900">
       <div className="w-full max-w-sm p-8 border border-slate-200 dark:border-slate-700 rounded-xl shadow-md">
         <h1 className="text-2xl font-bold mb-6 text-slate-800 dark:text-white text-center">
           Connexion
