@@ -9,22 +9,22 @@ export default function AttSelectpatialePage() {
 
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/spatiale/1">
                             {AttSelectSpatiale.paradiPosner.title} {AttSelectSpatiale.paradiPosner.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/spatiale/2">
                             {AttSelectSpatiale.fenAttention.title} {AttSelectSpatiale.fenAttention.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/spatiale/3">
                             {AttSelectSpatiale.exploSystematic.title} {AttSelectSpatiale.exploSystematic.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/spatiale/4">
                             {AttSelectSpatiale.extinctionVisu.title} {AttSelectSpatiale.extinctionVisu.description}
                         </Link>

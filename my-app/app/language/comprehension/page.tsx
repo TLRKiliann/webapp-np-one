@@ -8,22 +8,22 @@ export default function Comprehension() {
 
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/language/comprehension/1">
                             Désignation → mot isolé
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/language/comprehension/2">
                             Questions oui/non → compréhension propositionnelle simple
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/language/comprehension/3">
                             Appariement phrase-image → compréhension
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/language/comprehension/4">
                             Exécution d'ordres → compréhension séquentielle/syntaxique complexe
                         </Link>

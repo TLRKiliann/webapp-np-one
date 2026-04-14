@@ -13,37 +13,37 @@ export default function AttentionSelectivePage() {
 
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/detection-cibles-visuelles">
                             Détection de cibles visuelles
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/inhibition-distracteurs">
                             Inhibition des distracteurs
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/auditive">
                             Attention sélective auditive
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/texte">
                             Attention sélective dans le texte
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/spatiale">
                             Attention sélective spatiale
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/filtrage-semantique">
                             Filtrage sémantique
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/attention-selective/strategie-remediation">
                             Stratégies de remédiation
                         </Link>

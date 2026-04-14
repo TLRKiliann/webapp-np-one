@@ -9,27 +9,27 @@ export default function CalpinVisuoSpatialPage() {
 
             <nav className="mt-8 ml-8">
                 <ul className="list-disc">
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial/1">
                             {calpinvisuospatial.empanCorsi.title}: {calpinvisuospatial.empanCorsi.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial/2">
                             {calpinvisuospatial.memoPosition.title}: {calpinvisuospatial.memoPosition.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial/3">
                             {calpinvisuospatial.rotationMentale.title}: {calpinvisuospatial.rotationMentale.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial/4">
                             {calpinvisuospatial.labyrintheMemo.title}: {calpinvisuospatial.labyrintheMemo.description}
                         </Link>
                     </li>
-                    <li className="text-xl hover:text-emerald-500 mb-2">
+                    <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/memo-travail/calepin-visuo-spatial/5">
                             {calpinvisuospatial.matrixPattern.title}: {calpinvisuospatial.matrixPattern.description}
                         </Link>

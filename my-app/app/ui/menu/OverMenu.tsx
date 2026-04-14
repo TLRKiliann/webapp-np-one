@@ -8,10 +8,10 @@ export default async function OverMenu() {
 
     return (
         <nav className="bg-teal-800 dark:bg-slate-950 border-b border-teal-900 dark:border-slate-800">
-            <ul className="list-none flex flex-row items-center text-sm text-teal-50 dark:text-slate-200 font-medium tracking-wide px-6 py-3">
+            <ul className="list-none flex flex-row items-center text-base font-semibold text-teal-50 dark:text-slate-200 tracking-wide px-6 py-3">
                 <li className="flex flex-1 justify-around items-center">
                     <Link href="/" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
-                        <MdHome size={20} />
+                        <MdHome size={24} />
                     </Link>
                     <Link href="/patient" className="hover:text-teal-300 dark:hover:text-indigo-400 transition-colors duration-200">
                         Patient

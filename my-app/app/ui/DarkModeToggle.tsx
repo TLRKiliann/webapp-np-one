@@ -14,7 +14,7 @@ export default function DarkModeToggle() {
     return (
         <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="text-slate-100 font-bold hover:text-white transition-colors"
+            className="text-slate-100 font-bold hover:text-white transition-colors cursor-pointer"
             aria-label="Toggle dark mode"
         >
             {theme === "dark" ? "☀️" : "🌙"}
