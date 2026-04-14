@@ -22,7 +22,7 @@ export default function RootLayout({
           <OverMenu />
           <Menu />
           <SecondMenu />
-          <main className="w-full min-h-[calc(100vh-135px)] text-teal-800 dark:text-indigo-100 bg-[#f8fafc] dark:bg-[#0f0e1a] p-10">
+          <main className="w-full min-h-[calc(100vh-150px)] text-teal-800 dark:text-indigo-100 bg-[#f8fafc] dark:bg-[#0f0e1a] p-10">
             {children}
           </main>
         </ThemeProvider>
