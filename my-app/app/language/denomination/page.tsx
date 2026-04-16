@@ -21,7 +21,7 @@ export default function DenominationPage() {
                     </li>
                     <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
                         <Link href="/language/denomination/3">
-                            Execrice 3: Complètement de phrase
+                            <s className="text-red-500">Execrice 3: Complètement de phrase</s>
                         </Link>
                     </li>
                     <li className="text-xl hover:text-teal-500 dark:hover:text-indigo-400 mb-2">
